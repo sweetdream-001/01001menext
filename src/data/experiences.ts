@@ -59,7 +59,7 @@ const experience = [
       { name: 'Ruby on Rails', icon: '/icons/ruby.png' },
       { name: 'Go & Gin', icon: '/icons/go.png' },
       { name: 'AWS', icon: '/icons/aws.png' },
-      { name: 'Azure', icon: '/icons/Azure.png' },
+      { name: 'Azure', icon: '/icons/azure.png' },
     ],
     date: 'January 2020 - July 2021',
     link: 'https://drive.google.com/file/d/1YJ7BeX5BpPyxI_3cpHKylPA5uMWApt2B/view?usp=sharing',
