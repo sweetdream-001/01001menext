@@ -78,7 +78,7 @@ export function AllBlogs({ title }: AllContent) {
                 <Image
                   width={72}
                   height={72}
-                  src="/icons/azure.png"
+                  src="/icons/azure.jpg"
                   alt="Azure"
                 />
               </div>

@@ -21,7 +21,7 @@ const certificates = [
       en: 'Microsoft Certified: Azure Fundamentals',
       ta: 'மைக்ரோசாஃப்ட் சான்றளிக்கப்பட்டது: அசூர் அடிப்படைகள்',
     },
-    image: '/certi/Azure.png',
+    image: '/certi/Azure.jpg',
   },
   {
     id: 5,

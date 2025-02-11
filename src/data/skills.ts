@@ -222,7 +222,7 @@ const cardSkills = [
       en: 'Azure',
       ta: 'கான்வா',
     },
-    img: '/icons/azure.png',
+    img: '/icons/azure.jpg',
     color: '#0dC4CC'
   }
   ,
