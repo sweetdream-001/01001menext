@@ -54,7 +54,7 @@ export function AllBlogs({ title }: AllContent) {
                 <Image
                   width={72}
                   height={72}
-                  src="/icons/azure.jpg"
+                  src="/icons/JS.png"
                   alt="JavaScript"
                 />
               </div>
