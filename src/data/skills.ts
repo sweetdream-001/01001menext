@@ -110,7 +110,7 @@ const cardSkills = [
   {
     id: 13,
     title: {
-      en: 'Spopify',
+      en: 'Shopify',
       ta: 'எக்செல்',
     },
     img: '/icons/shopify.png',
