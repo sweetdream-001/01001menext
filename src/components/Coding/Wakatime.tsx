@@ -49,12 +49,12 @@ export function Wakatime() {
 
       <Figure>
         <iframe
-          src="https://wakatime.com/share/@Saravanakumar2003/329dcf8c-6405-44e8-9355-32c07448883c.svg"
+          src="https://wakatime.com/share/@RaniyDream2003/329dcf8c-6405-44e8-9355-32c07448883c.svg"
           width="500"
           height="300">
         </iframe>
         <iframe
-          src="https://wakatime.com/share/@Saravanakumar2003/ef787f7e-ed82-45f6-86d7-021ed9c6859d.svg"
+          src="https://wakatime.com/share/@RaniyDream2003/ef787f7e-ed82-45f6-86d7-021ed9c6859d.svg"
           width="500"
           height="300">
         </iframe>

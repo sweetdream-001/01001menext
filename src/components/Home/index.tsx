@@ -33,10 +33,6 @@ export function HomeHero() {
     setModalIsOpen(false);
   }
 
-  function handleContinue() {
-    window.location.href = "https://storyofsaravana.vercel.app/";
-  }
-
   return (
     <Container>
       <Content>
@@ -45,7 +41,7 @@ export function HomeHero() {
             <span>👋🏻</span> {currentLang === 'ta' ? 'வணக்கம், எனது பெயர்' : 'Hello, my name is'}
           </p>
           <h1>
-            {currentLang === 'ta' ? 'சரவணகுமார் ரா' : 'Saravanakumar R'}  
+            {currentLang === 'ta' ? 'சரவணகுமார் ரா' : 'Keston Atwater'}  
             <span className="animation">
               <Image
                 width={200}
@@ -59,7 +55,7 @@ export function HomeHero() {
           <h2>
             <Typewriter
               options={{
-                strings: [currentLang === 'ta' ? 'டெவலப்பர் | பேச்சாளர் | தன்னார்வலர்' : 'Developer | Speaker | Volunteer'],
+                strings: [currentLang === 'ta' ? 'டெவலப்பர் | பேச்சாளர் | தன்னார்வலர்' : ' Sr.Full Stack Developer | Web Designer '],
                 autoStart: true,
                 loop: true,
               }}
@@ -67,97 +63,11 @@ export function HomeHero() {
           </h2>
 
           <div className="button">
-            <ButtonPrimary onClick={openModal}>
-              <b>{currentLang === 'ta' ? 'எனது கதையைப் பார்க்கவும்' : 'See my Story'}</b>
+            <ButtonPrimary>
+              <Link href={'/projects'}><b>{currentLang === 'ta' ? 'எனது கதையைப் பார்க்கவும்' : 'See my Portfolio'}</b></Link> 
               <FiArrowRight style={{ marginBottom: '-0.3rem' }} size={20} />
             </ButtonPrimary>
 
-            <Modal
-              isOpen={modalIsOpen}
-              onRequestClose={closeModal}
-              contentLabel="Example Modal"
-              style={{
-                overlay: {
-                  backgroundColor: 'rgba(0, 0, 0, 0.75)', // semi-transparent black
-                },
-                content: {
-                  alignContent: 'center',
-                  color: 'lightsteelblue',
-                  top: '50%',
-                  left: '50%',
-                  right: 'auto',
-                  bottom: 'auto',
-                  marginRight: '-50%',
-                  transform: 'translate(-50%, -50%)',
-                  backgroundColor: '#fff',
-                  borderRadius: '10px', 
-                  padding: '20px',
-                },
-              }}
-            >
-              {/* <h2 style={{
-                color: 'black',
-                textAlign: 'center',
-                fontSize: '1.5rem',
-              }}>{currentLang === 'ta' ? 'சரவணகுமாரின் கதை' : 'Story of Saravanakumar'}</h2>
-              <p style={{
-                marginTop: '1rem',
-                color: 'black',
-                textAlign: 'center',
-                fontSize: '1rem',
-              }}>{currentLang === 'ta' ? 'நீங்கள் கணினியில் இருந்தால் மட்டுமே தொடரவும்.' : 'Continue only if you are on a computer.'}</p>
-              <p style={{
-                color: 'black',
-                textAlign: 'center',
-                fontSize: '1rem',
-              }}>{currentLang === 'ta' ? 'நீங்கள் தொலைபேசியில் இருந்தால், பக்கம் சரியாக ஏற்றப்படாது,' : 'If you are on a phone, the page may not load properly,'}</p>
-              <p style={{
-                color: 'black',
-                textAlign: 'center',
-                fontSize: '1rem',
-              }}>{currentLang === 'ta' ? 'மற்றும் பல அனிமேஷன்கள் தோன்றாது.' : 'and several animations may not appear.'}</p>
-              <p style={{
-                marginTop: '1rem',
-                color: 'black',
-                textAlign: 'center',
-                fontSize: '1rem',
-                fontWeight: 'bold',
-              }}>{currentLang === 'ta' ? 'நீங்கள் தொடர விரும்புகிறீர்களா?' : 'Do you want to continue?'}</p> */}
-                            <p style={{
-                marginTop: '1rem',
-                color: 'black',
-                textAlign: 'center',
-                fontSize: '1rem',
-                fontWeight: 'bold',
-              }}>{currentLang === 'ta' ? 'தற்போது பராமரிப்பில் உள்ளது. விரைவில் கிடைக்கும்!!' : 'Currently in maintenance. It will be available soon!!'}</p>
-              <div style={{
-                display: 'flex',
-                justifyContent: 'center',
-              }}>
-              <Button style={{
-                display: 'inline-block',
-                alignContent: 'center',
-                marginTop: '1rem',
-                marginRight: '1rem',
-                backgroundColor: 'red',
-                color: 'white',
-                border: 'none',
-                padding: '0.5rem 1rem',
-                borderRadius: '5px',
-              }} onClick={closeModal}>{currentLang === 'ta' ? 'மூடு' : 'Close'}</Button>
-              {/* <Button style={{
-                display: 'inline-block',
-                alignSelf: 'center',
-                marginTop: '1rem',
-                marginRight: '1rem',
-                backgroundColor: 'green',
-                color: 'white',
-                border: 'none',
-                padding: '0.5rem 1rem',
-                borderRadius: '5px',
-              }} onClick={handleContinue}>{currentLang === 'ta' ? 'தொடரவும்' : 'Continue'}</Button> */}
-              </div>
-            </Modal>
           </div>
         </HomeText>
         <ImgHome>

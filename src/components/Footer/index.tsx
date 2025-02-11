@@ -18,7 +18,7 @@ export function Footer() {
   return (
     <FooterContainer>
       <FooterContent>
-        <h4> &copy; {new Date().getFullYear()} Saravanakumar Ramaswamy</h4>
+        <h4> &copy; {new Date().getFullYear()} Raniy Keys</h4>
         <div className="footer_links">
         <Link href={'/privacypolicy'} aria-label={currentLang === 'ta' ? 'தனியுரிமைக் கொள்கை' : 'Privacy Policy'} legacyBehavior>
           {currentLang === 'ta' ? 'தனியுரிமைக் கொள்கை' : 'Privacy Policy'}
@@ -28,9 +28,9 @@ export function Footer() {
         </Link>
         </div>
       </FooterContent>
-      <div className="links">
+      {/* <div className="links">
         <Link
-          href={'https://github.com/Saravanakumar2003'}
+          href={'https://github.com/RaniyDream2003'}
           target="_blank"
           aria-label={currentLang === 'ta' ? 'கிட்ஹப் இணைப்பு' : 'Link to Github'}
         >
@@ -44,20 +44,20 @@ export function Footer() {
           <FiLinkedin />
         </Link>
         <Link
-          href={'https://www.instagram.com/saravanakumar.me?utm_source=qr'}
+          href={'https://www.instagram.com/RaniyDream.me?utm_source=qr'}
           target="_blank"
           aria-label={currentLang === 'ta' ? 'இன்ஸ்டாகிராம்' : 'Instagram'}
         >
           <FiInstagram />
         </Link>
         <Link
-          href={'https://x.com/Saravanakumar16'}
+          href={'https://x.com/RaniyDream16'}
           target="_blank"
           aria-label={currentLang === 'ta' ? 'ட்விட்டர்' : 'Twitter'}
         >
           <FiTwitter />
         </Link>
-      </div>
+      </div> */}
     </FooterContainer>
   );
 }

@@ -42,7 +42,7 @@ export function Testimonials() {
         </span>
       </Title>
       <iframe
-        id='testimonialto-carousel-saravanakumar-r-tag-all-light'
+        id='testimonialto-carousel-RaniyDream-r-tag-all-light'
         src={testimonial}
         style={{
           width: '100vw',
@@ -60,7 +60,7 @@ export function Testimonials() {
         frameBorder='0'
       ></iframe>
 
-      <Link href="https://testimonial.to/saravanakumar-r" legacyBehavior>
+      <Link href="https://testimonial.to/RaniyDream-r" legacyBehavior>
         <ButtonAlt style={{
           marginTop: '1rem',
         }}>

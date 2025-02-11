@@ -9,11 +9,11 @@ import Document, {
 import { ServerStyleSheet } from 'styled-components'
 
 const meta = {
-  title: 'Saravanakumar Portfolio',
+  title: 'RaniyDream Portfolio',
   description:
-    'Saravanakumar Portfolio',
+    'RaniyDream Portfolio',
   image:
-    'https://raw.githubusercontent.com/Saravanakumar2003/Portfolio/main/public/ogimage.png'
+    'https://raw.githubusercontent.com/RaniyDream2003/Portfolio/main/public/ogimage.png'
 }
 
 export default class MyDocument extends Document {
@@ -42,16 +42,16 @@ export default class MyDocument extends Document {
       <Html lang="pt-EN">
         <Head>
           <meta charSet="utf-8" />
-          <meta name="author" content="Saravanakumar" />
+          <meta name="author" content="RaniyDream" />
           <meta name="description" content={meta.description} />
           <meta itemProp="name" content={meta.title} />
           <meta itemProp="description" content={meta.description} />
           <meta itemProp="image" content={meta.image} />
           <meta
             name="keywords"
-            content="Saravanakumar, website, programador, front-end, personal website, developer, portfolio, sites, web, JavaScript, TypeScript, ReactJS, NextJS, software, Freelancer, portfolio developer, Saravanakumar portfolio"
+            content="RaniyDream, website, programador, front-end, personal website, developer, portfolio, sites, web, JavaScript, TypeScript, ReactJS, NextJS, software, Freelancer, portfolio developer, RaniyDream portfolio"
           />
-          <meta name="copyright" content="Saravanakumar 2023" />
+          <meta name="copyright" content="RaniyDream 2023" />
           <meta name="robots" content="index, follow" />
           <meta name="language" content="pt-EN" />
           <meta name="rating" content="general" />
@@ -66,7 +66,7 @@ export default class MyDocument extends Document {
 
           <meta property="og:url" content="https://saravana.vercel.app/" />
           <meta property="og:type" content="website" />
-          <meta property="og:site_name" content="Saravanakumar" />
+          <meta property="og:site_name" content="RaniyDream" />
           <meta property="og:title" content={meta.title} />
           <meta property="og:description" content={meta.description} />
           <meta property="og:image" content={meta.image} />

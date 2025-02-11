@@ -38,7 +38,7 @@ export function Education() {
   return (
     <Container>
       <Title>
-        {currentLang === 'ta' ? 'வரலாறு' : 'History'}
+        {currentLang === 'ta' ? 'வரலாறு' : 'Education'}
         <span>
           <Books /> {currentLang === 'ta' ? 'கல்வி' : 'Academic'}
         </span>
@@ -80,25 +80,8 @@ export function Education() {
                     <EducationContent>
                       <h1>{education.title[currentLang]}</h1>
                       <h2>{education.subTitle[currentLang]}</h2>
-                      <span>{education.office[currentLang]}</span>
-                      <p>{education.description[currentLang].split('\n').map((line, i) => (
-                        <a key={i}>
-                          {line}
-                          <br />
-                        </a>
-                      ))}</p>
-                      <div style={{ display: 'flex', gap:"1rem", marginTop:"1rem" }}>
-                        <Button>
-                          <Link legacyBehavior href={education.link}>
-                            <a target="_blank">{currentLang === 'ta' ? 'தளம்' : 'Website'}</a>
-                          </Link>
-                        </Button>
-                        <Button>
-                          <Link legacyBehavior href={education.link2 ?? ''}>
-                            <a target="_blank">{currentLang === 'ta' ? 'பாடம்' : 'Syllabus'}</a>
-                          </Link>
-                        </Button>
-                      </div>
+                      {/* <span>{education.office[currentLang]}</span> */}
+                      <p>{education.description[currentLang]}</p>
                     </EducationContent>
                   </EducationContainer>
                 </VerticalTimelineElement>

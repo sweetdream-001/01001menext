@@ -33,9 +33,9 @@ export function About() {
 
         <div className="aboutContent">
           <div className="aboutDescription">
-            <h2>{currentLang === 'ta' ? 'என்னைப் பற்றி சிறிது!!' : 'Little About Me!!'}</h2>
+            <h2>{currentLang === 'ta' ? 'என்னைப் பற்றி சிறிது!!' : 'About Me!!'}</h2>
             <li>
-              {currentLang === 'ta' ? 'நான் வேலம்மல் பொறியியல் கல்லூரியின் மாணவர், எலக்ட்ரானிக்ஸ் மற்றும் கம்யூனிகேஷன் இன்ஜினியரிங் படித்து வருகிறேன் மற்றும் தொழில்நுட்பத்தில் ஒரு வலுவான அடித்தளத்தை உருவாக்குகிறேன்.' : 'A proud student of Velammal Engineering College, where I am pursuing a Bachelors degree in Electronics and Communication Engineering and building a solid foundation in technology.'}
+              {currentLang === 'ta' ? 'நான் வேலம்மல் பொறியியல் கல்லூரியின் மாணவர், எலக்ட்ரானிக்ஸ் மற்றும் கம்யூனிகேஷன் இன்ஜினியரிங் படித்து வருகிறேன் மற்றும் தொழில்நுட்பத்தில் ஒரு வலுவான அடித்தளத்தை உருவாக்குகிறேன்.' : 'Hi! I am Keston Atwater, a Senior Software Engineer with over a decade of experience steering software development at leading companies. I am now taking the leap into freelancing, eager to make the most of my expertise and deliver solutions that make a difference.'}
             </li>
             <li>
               {currentLang === 'ta' ? 'நான் ஒரு ஆர்வமுள்ள டெவலப்பர், ஆர்வமுள்ள தன்னார்வலர் மற்றும் பொது பேச்சாளர், மேலும் புதிய வாய்ப்புகள் மற்றும் வழிகளை ஆராய்வதில் நான் ஆர்வமாக இருக்கிறேன்.' : 'I am also an avid developer, enthusiastic volunteer, and public speaker, and I love exploring new opportunities and avenues.'}
@@ -43,7 +43,7 @@ export function About() {
           </div>
 
           <div className='aboutButton'>
-            <Link href={'/resume'}>
+            {/* <Link href={'/resume'}>
               <Button>
                 {currentLang === 'ta' ? 'சுயவிவரம்' : 'Resume'}
                 <TelegramLogo
@@ -55,7 +55,7 @@ export function About() {
                   weight="bold"
                 />
               </Button>
-            </Link>
+            </Link> */}
             <Link href={'/about'}>
               <ButtonAlternatives>
                 {currentLang === 'ta' ? 'மேலும் வாசிக்க' : 'Read more'}

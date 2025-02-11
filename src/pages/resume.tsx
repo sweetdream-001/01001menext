@@ -37,12 +37,12 @@ export default function Resume() {
   return (
     <>
       <Head>
-        <title>{currentLang === 'ta' ? 'சுயவிவரம் | சரவணகுமார்' : 'Resume | Saravanakumar'}</title>
+        <title>{currentLang === 'ta' ? 'சுயவிவரம் | சரவணகுமார்' : 'Resume | RaniyDream'}</title>
         <meta
           name="description"
           content={currentLang === 'ta' ? 'இது எனது புதுப்பிக்கப்பட்ட சுயவிவரம், நீங்கள் அதை காணலாம் அல்லது பதிவிறக்கம் செய்யலாம்.' : 'This is my updated resume, you can see or download it.'}
         />
-        <meta property="og:title" content={currentLang === 'ta' ? 'சுயவிவரம் | சரவணகுமார்' : 'Resume | Saravanakumar'} />
+        <meta property="og:title" content={currentLang === 'ta' ? 'சுயவிவரம் | சரவணகுமார்' : 'Resume | RaniyDream'} />
         <meta
           property="og:description"
           content={currentLang === 'ta' ? 'இது எனது புதுப்பிக்கப்பட்ட சுயவிவரம், நீங்கள் அதை காணலாம் அல்லது பதிவிறக்கம் செய்யலாம்.' : 'This is my updated resume, you can see or download it.'}
@@ -68,7 +68,7 @@ export default function Resume() {
             allowFullScreen
             width="740"
             height="780"
-            title="Saravanakumar Resume"
+            title="RaniyDream Resume"
           />
 
           <CV />

@@ -17,7 +17,7 @@ interface WorkProps {
 export default function Projeto({ work }: WorkProps) {
   return <>
     <Head>
-      <title>{work.title} | Saravanakumar </title>
+      <title>{work.title} | RaniyDream </title>
       <meta name="description" content={work.description} />
       <meta property="og:title" content={work.title} />
       <meta property="og:description" content={work.description} />

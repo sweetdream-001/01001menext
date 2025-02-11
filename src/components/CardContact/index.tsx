@@ -33,7 +33,7 @@ export function CardContact() {
           <div className="description">
             <h2>{currentLang === 'ta' ? 'நாம் பேசலாம்!' : 'Lets talk!'}</h2>
             <p>
-              {currentLang === 'ta' ? 'உங்களுக்கு கேள்விகள் இருந்தால் அல்லது வணக்கம் சொல்ல விரும்பினால், தயவுசெய்து என்னை தொடர்பு கொள்ளுங்கள். நான் விரைவில் உங்களுக்கு பதிலளிக்க முயற்சிப்பேன்!' : 'If you have questions or would just like to say hello, please contact me. I will do my best to get back to you as soon as possible!'}
+              {currentLang === 'ta' ? 'உங்களுக்கு கேள்விகள் இருந்தால் அல்லது வணக்கம் சொல்ல விரும்பினால், தயவுசெய்து என்னை தொடர்பு கொள்ளுங்கள். நான் விரைவில் உங்களுக்கு பதிலளிக்க முயற்சிப்பேன்!' : 'If you have questions or would just like to say hello, please hire me. I will do my best to get back to you as soon as possible!'}
             </p>
           </div>
 
@@ -48,7 +48,7 @@ export function CardContact() {
           </div>
         </CardContactContent>
 
-        <Link href={'/contact'} legacyBehavior>
+        {/* <Link href={'/contact'} legacyBehavior>
           <ButtonAlt>
             {currentLang === 'ta' ? 'என்னை தொடர்பு கொள்ளுங்கள்' : 'Contact Me'}{' '}
             <TelegramLogo
@@ -75,7 +75,7 @@ export function CardContact() {
               weight="bold"
             />
           </ButtonAlt>
-        </Link>
+        </Link> */}
       </CardContactContainer>
     </Section>
   );

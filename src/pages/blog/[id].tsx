@@ -98,7 +98,7 @@ export default function BlogDetail({ htmlContent, title, date, readTime, tags, d
         <MarkdownContainer ref={contentRef} dangerouslySetInnerHTML={{ __html: htmlContent }} />
         <GiscusContainer>
           <Giscus
-            repo="Saravanakumar2003/Portfolio"
+            repo="RaniyDream2003/Portfolio"
             repoId="R_kgDOLFzyGQ"
             category="Blog"
             categoryId="DIC_kwDOLFzyGc4Ckx5G"
@@ -167,7 +167,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
       firstH1.remove();
     }
 
-    const title = firstH1 ? firstH1.textContent : "Saravanakumar's Blogs";
+    const title = firstH1 ? firstH1.textContent : "RaniyDream's Blogs";
 
     // Remove the specific parts of the code
     const specificPart1 = document.querySelector(

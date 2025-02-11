@@ -41,7 +41,7 @@ export function Header() {
               alt="logo"
             />
           </div>
-          {'Saravanakumar'}
+          {'Rainy keys'}
         </Link>
         <div className="settings">
           <Settings toggleTheme={toggleTheme} currentTheme={currentTheme} />
@@ -79,17 +79,17 @@ export function Header() {
               <span>{currentLang === 'ta' ? 'அனுபவம்' : 'Experience'}</span>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href={'/blog'}>
               <span>{currentLang === 'ta' ? 'பதிவு' : 'Blogs'}</span>
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link href={'/projects'}>
               <span>{currentLang === 'ta' ? 'திட்டங்கள்' : 'Projects'}</span>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href={'/resume'}>
               <span>{currentLang === 'ta' ? 'சுயவிவரம்' : 'Resume'}</span>
             </Link>
@@ -98,11 +98,11 @@ export function Header() {
             <Link href={'/contact'}>
               <span>{currentLang === 'ta' ? 'தொடர்பு' : 'Contact'}</span>
             </Link>
-          </li>
+          </li> */}
         </ul>
         <Icons>
           <Link
-            href={'https://github.com/Saravanakumar2003'}
+            href={'https://github.com/RaniyDream2003'}
             target="_blank"
             aria-label={currentLang === 'ta' ? 'கிட்ஹப் இணைப்பு' : 'Link to Github'}>
             <FiGithub />
@@ -114,7 +114,7 @@ export function Header() {
             <FiLinkedin />
           </Link>
           <Link
-            href={'https://www.instagram.com/saravanakumar.me?utm_source=qr'}
+            href={'https://www.instagram.com/RaniyDream.me?utm_source=qr'}
             target="_blank"
             aria-label={currentLang === 'ta' ? 'இன்ஸ்டாகிராம்' : 'Instagram'}>
             <FiInstagram />

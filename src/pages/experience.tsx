@@ -39,7 +39,7 @@ export default function Experience() {
   return (
     <div>
       <Head>
-        <title>{currentLang === 'ta' ? 'அனுபவம் | சரவணகுமார்' : 'Experience | Saravanakumar'}</title>
+        <title>{currentLang === 'ta' ? 'அனுபவம் | சரவணகுமார்' : 'Experience | RaniyDream'}</title>
       </Head>
 
       <ScrollTop />
@@ -52,11 +52,11 @@ export default function Experience() {
           </span>
         </Title>
 
-        <Description>
+        {/* <Description>
           <p>
             {currentLang === 'ta' ? 'நான் 2 ஆண்டுகளுக்கும் மேலாக டெவலப்பராக பணியாற்றி வருகிறேன். நான் சிறிய அளவிலிருந்து பெரிய அளவிலான பல திட்டங்களில் பணியாற்றியுள்ளேன், மேலும் பல்வேறு தொழில்நுட்பங்களுடன் பணியாற்றும் அனுபவம் எனக்கு உள்ளது.' : 'I have been working as a developer for over 2 years. I have worked on many projects, from small to large scale, and I have experience working with many different technologies.'}
           </p>
-        </Description>
+        </Description> */}
 
         <TabsContainer>
           <Tabs
@@ -127,9 +127,9 @@ export default function Experience() {
                       }}
                       className="links"
                     >
-                      <a href={exp.link} target="_blank" rel="noreferrer">
+                      {/* <a href={exp.link} target="_blank" rel="noreferrer">
                         <Button>{currentLang === 'ta' ? 'அறிக்கையைப் பார்க்கவும்' : 'View Report'}</Button>
-                      </a>
+                      </a> */}
                     </div>
 
                     <div className="techs">
@@ -153,10 +153,10 @@ export default function Experience() {
             </TabContent>
           </Tabs>
         </TabsContainer>
-        <Work />
-        <Testimonials />
+        {/* <Work /> */}
+        {/* <Testimonials /> */}
         <Education />
-        <Certificates />
+        {/* <Certificates /> */}
       </Section>
       <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
       <script src={botkey} defer></script>

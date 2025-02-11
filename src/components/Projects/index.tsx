@@ -52,7 +52,7 @@ export function Projects() {
         <img className="vector" width={100} height={100} src="/vectors/code.svg" alt="project" />
       </Title>
 
-      <div style={{
+      {/* <div style={{
         marginBottom: '2rem',
         display: 'flex',
         justifyContent: 'center',
@@ -69,7 +69,7 @@ export function Projects() {
           {tag}
         </TagButton>
       ))}
-      </div>
+      </div> */}
 
       <ProjectsContainer>
       {projects
@@ -95,7 +95,7 @@ export function Projects() {
           ))}
       </ProjectsContainer>
 
-      <AllBlogs title={currentLang === 'ta' ? 'எனது அனைத்து வலைப்பதிவுகளையும் படிக்கவும்' : 'Read all of my Blogs'} />
+      {/* <AllBlogs title={currentLang === 'ta' ? 'எனது அனைத்து வலைப்பதிவுகளையும் படிக்கவும்' : 'Read all of my Blogs'} /> */}
     </Container>
   );
 }

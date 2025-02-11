@@ -82,7 +82,7 @@ export function Experience() {
                           <br />
                         </span>
                       )) : t('description_not_available')}</p>
-                      <div style={{ display: 'flex', gap: "1rem", marginTop: "1rem", marginBottom: "1rem" }}>
+                      {/* <div style={{ display: 'flex', gap: "1rem", marginTop: "1rem", marginBottom: "1rem" }}>
                         <Button>
                           <Link legacyBehavior href={exp.certificate ?? ''}>
                             <a target="_blank">{currentLang === 'ta' ? 'சான்றிதழ்' : 'Certificate'}</a>
@@ -93,7 +93,7 @@ export function Experience() {
                             <a target="_blank">{currentLang === 'ta' ? 'தளம்' : 'Website'}</a>
                           </Link>
                         </Button>
-                      </div>
+                      </div> */}
                       <div>
                         <h3>{currentLang === 'ta' ? 'தொழில்நுட்பங்கள்:' : 'Techs:'}</h3>
                         <div className="tag">

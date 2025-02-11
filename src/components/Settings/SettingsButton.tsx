@@ -99,13 +99,13 @@ const Settings: React.FC<SettingsProps> = ({ toggleTheme, currentTheme }) => {
   const router = useRouter();
   const [audioVisible, setAudioVisible] = useState(false);
   const [fontSize, setFontSize] = useState(16);
-  const [showLanguageOptions, setShowLanguageOptions] = useState(false);
+  // const [showLanguageOptions, setShowLanguageOptions] = useState(false);
   const [showFontSizeOptions, setShowFontSizeOptions] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
 
-  const changeLanguage = (lang: string) => {
-    router.push(router.pathname, router.asPath, { locale: lang });
-  };
+  // const changeLanguage = (lang: string) => {
+  //   router.push(router.pathname, router.asPath, { locale: lang });
+  // };
 
   const increaseFontSize = () => {
     setFontSize(prevSize => prevSize + 2);
@@ -150,7 +150,7 @@ const Settings: React.FC<SettingsProps> = ({ toggleTheme, currentTheme }) => {
         <IconButton onClick={toggleTheme}>
           {currentTheme === 'light' ? <FaMoon /> : <FaSun />}
         </IconButton>
-        <IconButton onClick={() => setShowLanguageOptions(!showLanguageOptions)}>
+        {/* <IconButton onClick={() => setShowLanguageOptions(showLanguageOptions)}>
           <Translate />
         </IconButton>
         {showLanguageOptions && (
@@ -158,7 +158,7 @@ const Settings: React.FC<SettingsProps> = ({ toggleTheme, currentTheme }) => {
             <IconButton2 onClick={() => changeLanguage('en')}>EN</IconButton2>
             <IconButton2 onClick={() => changeLanguage('ta')}>TA</IconButton2>
           </Dropdown>
-        )}
+        )} */}
         <IconButton onClick={() => setShowFontSizeOptions(!showFontSizeOptions)}>
           <MdFormatSize />
         </IconButton>

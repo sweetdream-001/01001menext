@@ -19,7 +19,7 @@ interface ProjectProps {
 export default function Projeto({ project }: ProjectProps) {
   return <>
     <Head>
-      <title>{project.title} | Saravanakumar </title>
+      <title>{project.title} | RaniyDream </title>
       <meta name="description" content={project.description} />
       <meta property="og:title" content={project.title} />
       <meta property="og:description" content={project.description} />
@@ -47,7 +47,7 @@ export default function Projeto({ project }: ProjectProps) {
                 Website <BsGlobe size={15} />
               </ButtonAlt>
             </Link>
-            <Link href={project.github} target="_blank">
+            {/* <Link href={project.github} target="_blank">
               <ButtonAlt>
                 Repository <FaGithub size={17} />
               </ButtonAlt>
@@ -56,7 +56,7 @@ export default function Projeto({ project }: ProjectProps) {
               <ButtonAlt>
                 Blog <FaBlog size={17} />
               </ButtonAlt>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </S.Banner>
@@ -120,7 +120,7 @@ export default function Projeto({ project }: ProjectProps) {
         </Title>
 
         <S.PrintContent>
-          <S.Gif>
+          {/* <S.Gif>
             <h2>Details</h2>
             <p>
               Name: <span>{project.title}</span>
@@ -135,15 +135,15 @@ export default function Projeto({ project }: ProjectProps) {
             <video className="preview" loop autoPlay muted playsInline>
               <source src={project.gif} />
             </video>
-          </S.Gif>
+          </S.Gif> */}
 
           <S.Print>
             {project.print &&
               project.print.map(print => {
                 return (
                   <div className="print-list" key={print.id}>
-                    <h3>{print.name}</h3>
-                    <p style={{ textAlign: "justify" }}>{print.description}</p>
+                    {/* <h3>{print.name}</h3>
+                    <p style={{ textAlign: "justify" }}>{print.description}</p> */}
                     <Image
                       width={770}
                       height={460}
@@ -157,7 +157,7 @@ export default function Projeto({ project }: ProjectProps) {
         </S.PrintContent>
       </S.PrintContainer>
 
-      <S.Trelloboard>
+      {/* <S.Trelloboard>
         <S.DescriptionProject>
           <Title>
             Project Board
@@ -219,17 +219,17 @@ export default function Projeto({ project }: ProjectProps) {
             config={{ file: { forceHLS: true } }}
           />
         </S.Video>
-      </S.ContainerVideo>
+      </S.ContainerVideo> */}
 
-      <S.DescriptionProject>
+      {/* <S.DescriptionProject>
       <Title>
           Contributers
           <span>
             <UsersThree /> Project
           </span>
-        </Title>
-        </S.DescriptionProject>
-        <S.Team>
+      </Title>
+        </S.DescriptionProject> */}
+        {/* <S.Team>
         <S.TeamContent>
           {project.team &&
             project.team.map((team: any) => (
@@ -272,7 +272,7 @@ export default function Projeto({ project }: ProjectProps) {
               </S.TeamMember>
             ))}
         </S.TeamContent>
-      </S.Team>
+      </S.Team> */}
 
       <Link href={'/#projects'} legacyBehavior>
         <ButtonSecondary>

@@ -40,22 +40,22 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>{currentLang === 'ta' ? 'சரவணகுமாரின் போர்ட்ஃபோலியோ' : ' Saravanakumar\'s Portfolio'} </title>
+        <title>{currentLang === 'ta' ? 'சரவணகுமாரின் போர்ட்ஃபோலியோ' : ' RainyDreams\'s Portfolio'} </title>
       </Head>
       <ScrollTop />
       <Section>
         <HomeHero />
         <About />
         <Skills />
-        <Education />
         <Experience />
-        <Work />
-        <Achievements />
+        <Education />
+        {/* <Work /> */}
+        {/* <Achievements />
         <Publications />
-        <Certificates />
+        <Certificates /> */}
         <Projects />
-        <Wakatime />
-        <Testimonials />
+        {/* <Wakatime />
+        <Testimonials /> */}
         <CardContact />
       </Section>
 

@@ -7,7 +7,7 @@ export default function PrivacyPolicy() {
   return (
     <>
       <Head>
-        <title>Privacy Policy | Saravanakumar</title>
+        <title>Privacy Policy | RaniyDream</title>
       </Head>
       <PrivacyPolicyContainer>
         <br/><br/>
@@ -15,7 +15,7 @@ export default function PrivacyPolicy() {
 
         <h2>Last Updated: December 7th, 2024</h2>
 
-        <p>Your privacy is important to us. This Privacy Policy explains how Saravanakumar.engineer collects, uses, and protects your information when you interact with our website.</p>
+        <p>Your privacy is important to us. This Privacy Policy explains how RaniyDream.engineer collects, uses, and protects your information when you interact with our website.</p>
 
         <h3>1. Information We Collect</h3>
         <p>We may collect the following types of information when you use our website:</p>
@@ -77,9 +77,9 @@ export default function PrivacyPolicy() {
 
         <h3>9. Contact Information</h3>
         <p>If you have questions or concerns about this Privacy Policy, contact us at:</p>
-        <p><strong>Saravanakumar R</strong><br />
-          Email: hello@saravanakumar.engineer<br />
-          Website: <a href="https://saravanakumar.enginner">saravanakumar.engineer</a>
+        <p><strong>RaniyDream R</strong><br />
+          Email: hello@RaniyDream.engineer<br />
+          Website: <a href="https://RaniyDream.enginner">RaniyDream.engineer</a>
         </p>
       </PrivacyPolicyContainer>
       <ScrollTop />

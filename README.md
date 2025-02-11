@@ -1,7 +1,6 @@
-
 <h1 align="center" id="title">Personal Portfolio</h1>
 
-<p align="center"><img src="https://socialify.git.ci/Saravanakumar2003/Portfolio/image?description=1&amp;font=Inter&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Solid&amp;pulls=1&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
+<p align="center"><img src="https://socialify.git.ci/RaniyDream2003/Portfolio/image?description=1&amp;font=Inter&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Solid&amp;pulls=1&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
 
 <p id="description">Welcome to my personal portfolio website repository! This project serves as the codebase for my online portfolio showcasing my skills projects and experiences. Feel free to explore the code and provide feedback to help me improve.</p>
 
@@ -14,7 +13,7 @@
 <p>1. Clone the repository</p>
 
 ```
-git clone https://github.com/Saravanakumar2003/Portfolio.git
+git clone https://github.com/RaniyDream2003/Portfolio.git
 ```
 
 <p>2. Navigate to the project directory</p>
@@ -41,8 +40,6 @@ npm run dev
 http://localhost:3000
 ```
 
-  
-  
 <h2>💻 Built with</h2>
 
 ### Technologies
@@ -63,21 +60,21 @@ http://localhost:3000
 
 4. **Instagram Widget:** Embedding an Instagram widget to display recent posts. Obtain the required code or API key from the [Behold.so](https://app.behold.so/).
 
-5.  **Canva Iframe:** Integrating Canva through an iframe allows showcasing designs and graphics. To embed Canva content, obtain the embed code from the Canva platform.
+5. **Canva Iframe:** Integrating Canva through an iframe allows showcasing designs and graphics. To embed Canva content, obtain the embed code from the Canva platform.
 
 6. **Calendly Iframe:** Embedding Calendly through an iframe enables users to schedule appointments. To include a Calendly scheduling widget, get the embed code from the Calendly website.
 
-7. **Analytics:** Analytics for this personal portfolio are managed using Vercel and Google Analytics to gather insights into visitor behaviour and engagement. 
+7. **Analytics:** Analytics for this personal portfolio are managed using Vercel and Google Analytics to gather insights into visitor behaviour and engagement.
 
 8. **Testimonials.to:** Integration with Testimonials.to allows displaying testimonials from clients and users. Obtain the required code from the Testimonials.to the platform.
 
 9. **Visme Feedback Form:** A feedback form powered by Visme is included in the portfolio for collecting user feedback and suggestions.
 
-10.  **AI Chatbot:** An AI chatbot is integrated into the portfolio to provide interactive communication and assistance.
+10. **AI Chatbot:** An AI chatbot is integrated into the portfolio to provide interactive communication and assistance.
 
 11. **Waka Time:** Integration with WakaTime embeded code allows displaying coding activity and statistics.
 
-12. **Trello Intergration:** Integration with Trello embeded code allows displaying Trello boards and tasks. 
+12. **Trello Intergration:** Integration with Trello embeded code allows displaying Trello boards and tasks.
 
 # Deployment
 
@@ -106,15 +103,14 @@ To set up environment variables in Vercel:
 
 Vercel provides built-in analytics to monitor deployments and performance metrics. The Vercel dashboard can track deployment history and identify potential issues.
 
-
 ## How to Contribute
 
 If you'd like to contribute to the project, follow these steps:
 
 1. Fork the repository.
-2. Create a new branch: ```git checkout -b feature/new-feature```
-3. Make your changes and commit them: ```git commit -m 'Add new feature'```
-4. Push to the branch: ```git push origin feature/new-feature```
+2. Create a new branch: `git checkout -b feature/new-feature`
+3. Make your changes and commit them: `git commit -m 'Add new feature'`
+4. Push to the branch: `git push origin feature/new-feature`
 5. Submit a pull request.
 
 # Final Notes
@@ -129,8 +125,8 @@ Later all the several above modifications and enhancements were made to personal
 
 ## Author
 
-👤 **Saravanakumar**
+👤 **RaniyDream**
 
-- GitHub: [@Saravanakumar2003](https://github.com/Saravanakumar2003)
+- GitHub: [@RaniyDream2003](https://github.com/RaniyDream2003)
 - Portfolio: [saravana.vercel.app](https://saravana.vercel.app)
-- LinkedIn: [Saravanakumar](https://www.linkedin.com/in/saravanakumar2003/)
+- LinkedIn: [RaniyDream](https://www.linkedin.com/in/RaniyDream2003/)

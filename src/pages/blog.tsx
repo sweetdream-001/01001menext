@@ -110,8 +110,8 @@ export default function Blog() {
   return (
     <>
       <Head>
-        <title>{currentLang === 'ta' ? 'பதிவுகள் | சரவணகுமார்' : 'Blogs | Saravanakumar'}</title>
-        <meta property="og:title" content={currentLang === 'ta' ? 'வலைப்பதிவுகள் | சரவணகுமார்' : 'Blogs | Saravanakumar'} />
+        <title>{currentLang === 'ta' ? 'பதிவுகள் | சரவணகுமார்' : 'Blogs | RaniyDream'}</title>
+        <meta property="og:title" content={currentLang === 'ta' ? 'வலைப்பதிவுகள் | சரவணகுமார்' : 'Blogs | RaniyDream'} />
       </Head>
 
       <ScrollTop />
@@ -231,7 +231,7 @@ export default function Blog() {
 
             <p className="github">
               {currentLang === 'ta' ? 'ஏய், ஏய், ஏய்... எனக்கு இன்னும் அதிகம் உள்ளது ' : 'Hey, hey, hey... I have even more on '}
-              <a href="https://saravanakumar2003.hashnode.dev/">{currentLang === 'ta' ? 'இங்கே' : 'here'}</a>!!
+              <a href="https://RaniyDream2003.hashnode.dev/">{currentLang === 'ta' ? 'இங்கே' : 'here'}</a>!!
             </p>
           </S.BlogContent>
         </S.BlogContainer>

@@ -32,12 +32,12 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects | Saravanakumar </title>
+        <title>Projects | RaniyDream </title>
         <meta
           name="description"
           content="I love to code using tools like React, NextJS, Tailwind, Styled Components and more! Here are some of my favorite projects."
         />
-        <meta property="og:title" content="Projects | Saravanakumar" />
+        <meta property="og:title" content="Projects | RaniyDream" />
         <meta
           property="og:description"
           content="I love to code using tools like React, NextJS, Tailwind, Styled Components and more! Here are some of my favorite projects."
@@ -61,7 +61,7 @@ export default function Projects() {
 
         <S.ProjectsContainer>
           <S.ProjectsContent>
-            <div className="search">
+            {/* <div className="search">
               <p>Search by project name</p>
 
               <div className="input">
@@ -77,7 +77,7 @@ export default function Projects() {
 
             {!projectFilter.length && (
               <h3 className="not-found">Project not found 🙁</h3>
-            )}
+            )} */}
 
             {projectFilter.map((project) => {
               return (
@@ -124,11 +124,9 @@ export default function Projects() {
                 </>
               );
             })}
-
-            
           </S.ProjectsContent>
         </S.ProjectsContainer>
-        <T.Title>
+        {/* <T.Title>
           <p>../github</p>
           Github Profile
           <span>
@@ -138,9 +136,9 @@ export default function Projects() {
         <Github />
         <p className="github">
               Hey, hey... I have more projects on{" "}
-              <a href="https://github.com/Saravanakumar2003" style={{textDecoration: 'underline',}}> my GitHub </a>
+              <a href="https://github.com/RaniyDream2003" style={{textDecoration: 'underline',}}> my GitHub </a>
               !!
-        </p>
+        </p> */}
       </T.Section>
       <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
       <script

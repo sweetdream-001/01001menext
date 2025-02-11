@@ -11,7 +11,7 @@ const publications = [
       },
 
       authors: {
-        en: 'Dr. Mary Joans S, Saravanakumar R',
+        en: 'Dr. Mary Joans S, RaniyDream R',
         ta: 'டாக்டர் மேரி ஜோன்ஸ் எஸ், சரவணகுமார்',
       },
 
@@ -38,7 +38,7 @@ const publications = [
     //     ta: 'இந்த கட்டுரை பைனரி .dat இலிருந்து நிலையான .csv வடிவத்திற்கு SODAR காற்று ஆற்றல் தரவுகளை மாற்றுவதற்கான புதுமையான தீர்வை வழங்குகிறது. பைதான் அடிப்படையிலான ஆல்காரிதம் தரவுகளை திறமையாக செயலாக்கி, நேரக்குறிப்புகள், காற்று வேகங்கள் மற்றும் திசைகளை எடுத்து, ஒரு output.csv கோப்பை உருவாக்குகிறது.',
     //   },
     //   authors: {
-    //     en: 'Saravanakumar R, Leena Jasmine J S',
+    //     en: 'RaniyDream R, Leena Jasmine J S',
     //     ta: 'சரவணகுமார் ஆர், லீனா ஜாஸ்மின் ஜே எஸ்',
     //   },
     //   publicationDate: {
