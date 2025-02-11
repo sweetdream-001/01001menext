@@ -46,13 +46,13 @@ const projects = [
         name: 'Hardware Components',
         description:
           'We use Vega Aries IoT v2.o as the microcontroller and with it we have connected turbidity and pH sensor. This is used to collect both the parameters from the water and show it in a dashboard', 
-        img: '/projects/image/PrincessCruises/PrincessCruises1.png'
+        img: '/projects/image/PrincessCruises/PrincessCruises1.PNG'
       },
       {
         name: 'Dashboard',
         description:
         'The dashboard is built using HTML, CSS and JavaScript. It shows the real-time data of the water quality parameters such as pH and turbidity. It also shows the historical data of the water quality parameters.',
-        img: '/projects/image/PrincessCruises/PrincessCruises2.png'
+        img: '/projects/image/PrincessCruises/PrincessCruises2.PNG'
       },
       {
         name: 'Data Reports',
@@ -184,37 +184,37 @@ const projects = [
         name: 'Hardware Components',
         description:
           'We use Vega Aries IoT v2.o as the microcontroller and with it we have connected turbidity and pH sensor. This is used to collect both the parameters from the water and show it in a dashboard', 
-        img: '/projects/image/CookInMyHome/CookInMyHome1.png1'
+        img: '/projects/image/CookInMyHome/CookInMyHome1.PNG'
       },
       {
         name: 'Dashboard',
         description:
         'The dashboard is built using HTML, CSS and JavaScript. It shows the real-time data of the water quality parameters such as pH and turbidity. It also shows the historical data of the water quality parameters.',
-        img: '/projects/image/CookInMyHome/CookInMyHome2.png'
+        img: '/projects/image/CookInMyHome/CookInMyHome2.PNG'
       },
       {
         name: 'Data Reports',
         description:
           'The device generates data reports of the water quality parameters. The data reports are generated in the form of graphs and tables.',
-        img: '/projects/image/CookInMyHome/CookInMyHome3.png'
+        img: '/projects/image/CookInMyHome/CookInMyHome3.PNG'
       },
       {
         name: 'Hardware Components',
         description:
           'We use Vega Aries IoT v2.o as the microcontroller and with it we have connected turbidity and pH sensor. This is used to collect both the parameters from the water and show it in a dashboard', 
-        img: '/projects/image/CookInMyHome/CookInMyHome4.png'
+        img: '/projects/image/CookInMyHome/CookInMyHome4.PNG'
       },
       {
         name: 'Dashboard',
         description:
         'The dashboard is built using HTML, CSS and JavaScript. It shows the real-time data of the water quality parameters such as pH and turbidity. It also shows the historical data of the water quality parameters.',
-        img: '/projects/image/CookInMyHome/CookInMyHome5.png'
+        img: '/projects/image/CookInMyHome/CookInMyHome5.PNG'
       },
       {
         name: 'Data Reports',
         description:
           'The device generates data reports of the water quality parameters. The data reports are generated in the form of graphs and tables.',
-        img: '/projects/image/CookInMyHome/CookInMyHome6.png'
+        img: '/projects/image/CookInMyHome/CookInMyHome6.PNG'
       },
 
     ],
@@ -280,43 +280,43 @@ const projects = [
         name: 'Hardware Components',
         description:
           'We use Vega Aries IoT v2.o as the microcontroller and with it we have connected turbidity and pH sensor. This is used to collect both the parameters from the water and show it in a dashboard', 
-        img: '/projects/image/LabGrownDiamoneJewellery/LabGrownDiamoneJewellery1.png'
+        img: '/projects/image/LabGrownDiamoneJewellery/LabGrownDiamoneJewellery1.PNG'
       },
       {
         name: 'Dashboard',
         description:
         'The dashboard is built using HTML, CSS and JavaScript. It shows the real-time data of the water quality parameters such as pH and turbidity. It also shows the historical data of the water quality parameters.',
-        img: '/projects/image/LabGrownDiamoneJewellery/LabGrownDiamoneJewellery2.png'
+        img: '/projects/image/LabGrownDiamoneJewellery/LabGrownDiamoneJewellery2.PNG'
       },
       {
         name: 'Data Reports',
         description:
           'The device generates data reports of the water quality parameters. The data reports are generated in the form of graphs and tables.',
-        img: '/projects/image/LabGrownDiamoneJewellery/LabGrownDiamoneJewellery3.png'
+        img: '/projects/image/LabGrownDiamoneJewellery/LabGrownDiamoneJewellery3.PNG'
       },
       {
         name: 'Hardware Components',
         description:
           'We use Vega Aries IoT v2.o as the microcontroller and with it we have connected turbidity and pH sensor. This is used to collect both the parameters from the water and show it in a dashboard', 
-        img: '/projects/image/LabGrownDiamoneJewellery/LabGrownDiamoneJewellery4.png'
+        img: '/projects/image/LabGrownDiamoneJewellery/LabGrownDiamoneJewellery4.PNG'
       },
       {
         name: 'Dashboard',
         description:
         'The dashboard is built using HTML, CSS and JavaScript. It shows the real-time data of the water quality parameters such as pH and turbidity. It also shows the historical data of the water quality parameters.',
-        img: '/projects/image/LabGrownDiamoneJewellery/LabGrownDiamoneJewellery5.png'
+        img: '/projects/image/LabGrownDiamoneJewellery/LabGrownDiamoneJewellery5.PNG'
       },
       {
         name: 'Data Reports',
         description:
           'The device generates data reports of the water quality parameters. The data reports are generated in the form of graphs and tables.',
-        img: '/projects/image/LabGrownDiamoneJewellery/LabGrownDiamoneJewellery6.png'
+        img: '/projects/image/LabGrownDiamoneJewellery/LabGrownDiamoneJewellery6.PNG'
       },
       {
         name: 'Data Reports',
         description:
           'The device generates data reports of the water quality parameters. The data reports are generated in the form of graphs and tables.',
-        img: '/projects/image/LabGrownDiamoneJewellery/LabGrownDiamoneJewellery7.png'
+        img: '/projects/image/LabGrownDiamoneJewellery/LabGrownDiamoneJewellery7.PNG'
       },
     ],
     team: [
@@ -388,19 +388,19 @@ const projects = [
         name: 'Homepage',
         description:
           'The homepage of the Electrowiz\'25 website serves as the central hub for the symposium, providing information about the event, registration details, and other essential resources for participants.', 
-        img: '/projects/image/walkerfurniture/walkerfurniture0.png'
+        img: '/projects/image/walkerfurniture/walkerfurniture0.PNG'
       },
       {
         name: 'Events Page',
         description:
           'The Events page showcases a list of events, allowing participants to view event details, register for events, and access resources related to each event such as rules & judjing criteria.',
-        img: '/projects/image/walkerfurniture/walkerfurniture1.png'
+        img: '/projects/image/walkerfurniture/walkerfurniture1.PNG'
       },
       {
         name: 'Register Page',
         description:
           'The Register page allows participants to register for the symposium, providing essential details such as name, email, phone number, and event preferences. The page also features a payment gateway for registration fees.',
-        img: '/projects/image/walkerfurniture/walkerfurniture2.png'
+        img: '/projects/image/walkerfurniture/walkerfurniture2.PNG'
       },
     ],
     team: [
@@ -478,37 +478,37 @@ const projects = [
         name: 'Main Window',
         description:
           'The main window of the Muon Track Reconstruction software serves as the central interface for setting up and running muon track simulations. It provides various input fields, controls, and visualisations to help users configure drift tubes, initiate simulations, and observe the results',
-        img: '/projects/image/EKSTER/EKSTER1.png'
+        img: '/projects/image/EKSTER/EKSTER1.PNG'
       },
       {
         name: 'Drift Tube Array Configuration',
         description:
           'Each drift tube has their own data such as Timing Histogram, Coarse RT, Measure RT, True RT and Tube ID. All these can seen or accessed by pressing double click on the drift tube you want to see. Then a secondary window will pop up (This is the dtstauswindow). Where do you have all the information about that particular drift tube.',
-        img: '/projects/image/EKSTER/EKSTER2.png'
+        img: '/projects/image/EKSTER/EKSTER2.PNG'
       },
       {
         name: 'DT status window',
         description:
           'The DT Status Window is a crucial part of the Muon Track Reconstruction software. It provides detailed information about the status of the particular drift tubes during the simulation process. This window allows users to monitor the current state of the drift tube, track counts, TrueRT, MeasureRt, CoarseRT and timing Histogram.',
-        img: '/projects/image/EKSTER/EKSTER3.png'
+        img: '/projects/image/EKSTER/EKSTER3.PNG'
       },
       {
         name: 'Main Window',
         description:
           'The main window of the Muon Track Reconstruction software serves as the central interface for setting up and running muon track simulations. It provides various input fields, controls, and visualisations to help users configure drift tubes, initiate simulations, and observe the results',
-        img: '/projects/image/EKSTER/EKSTER4.png'
+        img: '/projects/image/EKSTER/EKSTER4.PNG'
       },
       {
         name: 'Drift Tube Array Configuration',
         description:
           'Each drift tube has their own data such as Timing Histogram, Coarse RT, Measure RT, True RT and Tube ID. All these can seen or accessed by pressing double click on the drift tube you want to see. Then a secondary window will pop up (This is the dtstauswindow). Where do you have all the information about that particular drift tube.',
-        img: '/projects/image/EKSTER/EKSTER5.png'
+        img: '/projects/image/EKSTER/EKSTER5.PNG'
       },
       {
         name: 'DT status window',
         description:
           'The DT Status Window is a crucial part of the Muon Track Reconstruction software. It provides detailed information about the status of the particular drift tubes during the simulation process. This window allows users to monitor the current state of the drift tube, track counts, TrueRT, MeasureRt, CoarseRT and timing Histogram.',
-        img: '/projects/image/EKSTER/EKSTER6.png'
+        img: '/projects/image/EKSTER/EKSTER6.PNG'
       },
     ],
     team: [
@@ -813,13 +813,13 @@ const projects = [
         name: 'Home Page',
         description:
           'The home page features a brief introduction about me, my skills, and my projects. It also features a link contact form and to my resume. The home page also features a music toggle button that allows the user to play a bgm while viewing my portfolio.',
-        img: '/projects/image/SmartMarkVideo/SmartMarkVideo1.png'
+        img: '/projects/image/SmartMarkVideo/SmartMarkVideo1.PNG'
       },
       {
         name: 'Top Skills',
         description:
           'The top skills section features my top skills with a stunning. The top skills is animated using Framer Motion. It is also responsive and changes its width and number of skills to be displayed in single row according to the screen size.',
-        img: '/projects/image/SmartMarkVideo/SmartMarkVideo2.png'
+        img: '/projects/image/SmartMarkVideo/SmartMarkVideo2.PNG'
       }
     ],
     team: [

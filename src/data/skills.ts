@@ -123,7 +123,7 @@ const cardSkills = [
       ta: 'கான்வா',
     },
     img: '/icons/java.png',
-    color: '#00C4CC'
+    color: '#0234CC'
   }
   ,
   {
@@ -133,7 +133,7 @@ const cardSkills = [
       ta: 'கான்வா',
     },
     img: '/icons/python.png',
-    color: '#00C4CC'
+    color: '#00C408'
   }
   ,
   {
@@ -143,7 +143,7 @@ const cardSkills = [
       ta: 'கான்வா',
     },
     img: '/icons/Cs.png',
-    color: '#00C4CC'
+    color: '#00C46C'
   }
   ,
   {
@@ -153,7 +153,7 @@ const cardSkills = [
       ta: 'கான்வா',
     },
     img: '/icons/node.png',
-    color: '#00C4CC'
+    color: '#07755C'
   }
   ,
   {
@@ -163,7 +163,7 @@ const cardSkills = [
       ta: 'கான்வா',
     },
     img: '/icons/mysql.png',
-    color: '#00C4CC'
+    color: '#0444CC'
   }
   ,
   {
@@ -173,7 +173,7 @@ const cardSkills = [
       ta: 'கான்வா',
     },
     img: '/icons/mongodb.png',
-    color: '#00C4CC'
+    color: '#0ef4CC'
   }
   ,
   {
@@ -183,7 +183,7 @@ const cardSkills = [
       ta: 'கான்வா',
     },
     img: '/icons/postgresql.png',
-    color: '#00C4CC'
+    color: '#0de4CC'
   },
   ,
   {
@@ -193,7 +193,7 @@ const cardSkills = [
       ta: 'கான்வா',
     },
     img: '/icons/redis.png',
-    color: '#00C4CC'
+    color: '#dd04CC'
   }
   ,
   {
@@ -203,7 +203,7 @@ const cardSkills = [
       ta: 'கான்வா',
     },
     img: '/icons/aws.png',
-    color: '#00C4CC'
+    color: '#0afeCC'
   }
   ,
   {
@@ -213,7 +213,7 @@ const cardSkills = [
       ta: 'கான்வா',
     },
     img: '/icons/docker.png',
-    color: '#00C4CC'
+    color: '#00adfC'
   }
   ,
   {
@@ -223,7 +223,7 @@ const cardSkills = [
       ta: 'கான்வா',
     },
     img: '/icons/azure.png',
-    color: '#00C4CC'
+    color: '#0dC4CC'
   }
   ,
   {
@@ -233,7 +233,7 @@ const cardSkills = [
       ta: 'கான்வா',
     },
     img: '/icons/kubernets.png',
-    color: '#00C4CC'
+    color: '#0f34CC'
   }
 ]
 
