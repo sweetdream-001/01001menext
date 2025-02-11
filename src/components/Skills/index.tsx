@@ -43,8 +43,8 @@ export function Skills() {
         </span>
       </Title>
       <SkillsContainer>
-        {cardSkills.map(skill => {
-          return (
+        {cardSkills && cardSkills.map(skill => {
+          return skill ? (
             <SkillsContent color={skill.color} key={skill.id}>
               {/* eslint-disable-next-line jsx-a11y/alt-text */}
               <Image
@@ -57,7 +57,7 @@ export function Skills() {
               <h4>{skill.title[currentLang]}</h4>
               <span className='border'></span>
             </SkillsContent>
-          )
+          ) : null;
         })}
       </SkillsContainer>
     </Container>
