@@ -62,7 +62,7 @@ export default function About() {
           <S.AboutImage>
             <img
               className="AboutImg"
-              src="/Saravana.jpg"
+              src="/rainycard.jpg"
               alt="RaniyDream"
             />
 

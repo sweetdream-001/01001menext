@@ -21,14 +21,11 @@ export function About() {
     <Container>
       <AboutContainer>
         <div className="AboutImg">
-          <Image
-            width={200}
-            height={200}
-            className="AboutImg"
-            src="/Professional_edited.jpg"
-            alt="Saravana's Image"
-            loading="lazy"
-          />
+            <img
+              className="AboutImg"
+              src="/rainy1.jpg"
+              alt="RaniyDream"
+            />
         </div>
 
         <div className="aboutContent">
