@@ -721,25 +721,25 @@ const projects = [
         name: 'Input File',
         description:
           'The user can upload the .dat file to be converted. The .dat file has to be in the format given below. The user can also download the sample .dat file from the website.',
-        img: '/projects/image/Propira/Propira2.PNG'
+        img: '/projects/image/Propira/propira2.PNG'
       },
       {
         name: 'Output File',
         description:
           'The user can download the converted .csv file. The .csv file will be in the format given below. The user can also download the .csv file from the website by uploadin sample .dat into the converter.',
-        img: '/projects/image/Propira/Propira3.PNG'
+        img: '/projects/image/Propira/propira3.PNG'
       },
       {
         name: 'Output File',
         description:
           'The user can download the converted .csv file. The .csv file will be in the format given below. The user can also download the .csv file from the website by uploadin sample .dat into the converter.',
-        img: '/projects/image/Propira/Propira4.PNG'
+        img: '/projects/image/Propira/propira4.PNG'
       },
       {
         name: 'Output File',
         description:
           'The user can download the converted .csv file. The .csv file will be in the format given below. The user can also download the .csv file from the website by uploadin sample .dat into the converter.',
-        img: '/projects/image/Propira/Propira5.PNG'
+        img: '/projects/image/Propira/propira5.PNG'
       },
     ],
     team: [
