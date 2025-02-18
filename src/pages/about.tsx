@@ -140,7 +140,7 @@ export default function About() {
               <p style={{ textAlign: "justify" }}>
                 {currentLang === "ta"
                   ? "👋 ."
-                  : "👋 Hi! I am Keston Atwater, a Senior Software Engineer with over a decade of experience steering software development at leading companies."}
+                  : "👋 Hi! I am Eric Chen, a Senior Software Engineer with over a decade of experience steering software development at leading companies."}
               </p>
               <p style={{ textAlign: "justify" }}>
                 {currentLang === "ta"

@@ -32,7 +32,7 @@ export function About() {
             <li>
               {currentLang === "ta"
                 ? "நான் வேலம்மல் பொறியியல் கல்லூரியின் மாணவர், எலக்ட்ரானிக்ஸ் மற்றும் கம்யூனிகேஷன் இன்ஜினியரிங் படித்து வருகிறேன் மற்றும் தொழில்நுட்பத்தில் ஒரு வலுவான அடித்தளத்தை உருவாக்குகிறேன்."
-                : "Hi! I am Keston Atwater, a Senior Software Engineer with over a decade of experience steering software development at leading companies. I am now taking the leap into freelancing, eager to make the most of my expertise and deliver solutions that make a difference."}
+                : "Hi! I am Eric Chen, a Senior Software Engineer with over a decade of experience steering software development at leading companies. I am now taking the leap into freelancing, eager to make the most of my expertise and deliver solutions that make a difference."}
             </li>
             <li>
               {currentLang === "ta"
