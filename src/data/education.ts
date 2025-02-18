@@ -2,7 +2,7 @@ const education = [
   {
     id: 1,
     url: 'vec',
-    img: '/education/TSU.jpg',
+    img: '/education/ntu.jpg',
     title: {
       en: 'Tennessee State University',
       ta: 'வேலம்மல் பொறியியல் கல்லூரி',

@@ -1,9 +1,9 @@
 const experience = [
   {
     id: 4,
-    img: '/experience/worry.jpg',
+    img: '/experience/kuubiik.png',
     title: {
-      en: 'Worry Free Labs',
+      en: 'Kuubiik',
       ta: 'NIWE',
     },
     subTitle: {
@@ -11,7 +11,7 @@ const experience = [
       ta: 'தேசிய காற்றால் மின்சக்தி நிறுவனத்தினர்',
     },
     office: {
-      en: 'Nashville, TN 37064',
+      en: 'Singapore',
       ta: 'இணை (WRA பிரிவு)',
     },
     description: {
@@ -29,16 +29,16 @@ const experience = [
       { name: 'Git', icon: '/icons/git.png' },
       { name: 'JIRA', icon: '/icons/jira.png' },
     ],
-    date: ' August 2021 – August 2024',
+    date: ' May 2021 – April 2024',
     link: 'https://drive.google.com/file/d/1b7GSsGtZvycOhRV-JGZXC2gvwYH-9nKj/view?usp=sharing',
     link2: 'https://niwe.res.in/',
     certificate: 'https://drive.google.com/file/d/1at_R9nQVm3805JuvF-xBaeQqRrT9LYeS/view?usp=sharing',
   },
   {
     id: 3,
-    img: '/experience/trinetix.jpg',
+    img: '/experience/moiboo.jpg',
     title: {
-      en: 'Trinetix Inc',
+      en: 'Moiboo',
       ta: 'BARC',
     },
     subTitle: {
@@ -46,7 +46,7 @@ const experience = [
       ta: 'பாபா அணு ஆராய்ச்சி மையம்',
     },
     office: {
-      en: 'Nashville, TN 37210',
+      en: 'Singapore',
       ta: 'திட்ட பயிற்சியாளர் (எலக்ட்ரானிக்ஸ் பிரிவு, ECIL)',
     },
     description: {
@@ -61,16 +61,16 @@ const experience = [
       { name: 'AWS', icon: '/icons/aws.png' },
       { name: 'Azure', icon: '/icons/azure.jpg' },
     ],
-    date: 'January 2020 - July 2021',
+    date: 'March 2018 - May 2021',
     link: 'https://drive.google.com/file/d/1YJ7BeX5BpPyxI_3cpHKylPA5uMWApt2B/view?usp=sharing',
     link2: 'https://www.barc.gov.in/',
     certificate: 'https://drive.google.com/file/d/14ycBaF9U54wz3Jb1mJRyiRAl5fE7TpLS/view?usp=sharing',
   },
   {
     id: 2,
-    img: '/experience/waverley.jpg',
+    img: '/experience/swagsoft.jpg',
     title: {
-      en: 'Waverley Software ',
+      en: 'Swag Software ',
       ta: 'NIWE',
     },
     subTitle: {
@@ -78,7 +78,7 @@ const experience = [
       ta: 'தேசிய காற்றால் மின்சக்தி நிறுவனத்தினர்',
     },
     office: {
-      en: 'Palo Alto, CA 94301',
+      en: 'Singapore',
       ta: 'இணை (WRA பிரிவு)',
     },
     description: {
@@ -92,16 +92,16 @@ const experience = [
       { name: 'MySQL', icon: '/icons/mysql.png' },
 
     ],
-    date: ' September 2017 - November 2019',
+    date: ' May 2016 - March 2018',
     link: 'https://drive.google.com/file/d/1b7GSsGtZvycOhRV-JGZXC2gvwYH-9nKj/view?usp=sharing',
     link2: 'https://niwe.res.in/',
     certificate: 'https://drive.google.com/file/d/1at_R9nQVm3805JuvF-xBaeQqRrT9LYeS/view?usp=sharing',
   },
   {
     id: 1,
-    img: '/experience/erbis.jpg',
+    img: '/experience/ranosys.png',
     title: {
-      en: 'Erbis ',
+      en: 'Ranosys ',
       ta: 'TANGEDCO',
     },
     subTitle: {
@@ -109,7 +109,7 @@ const experience = [
       ta: 'வட சென்னை வெப்ப மின்நிலையம்',
     },
     office: {
-      en: 'San Francisco, CA 94607   ',
+      en: 'Singapore',
       ta: 'உற்பத்தி பயிற்சியாளர்',
     },
     description: {
@@ -127,7 +127,7 @@ const experience = [
       { name: 'MongoDB', icon: '/icons/mongodb.png' },
 
     ],
-    date: 'January 2015 - August 2017',
+    date: 'August 2013 - May 2016',
     link: 'https://drive.google.com/file/d/10u-LsiLDjEdVlTQFXGOE5teaOflUBECz/view?usp=sharing',
     link2: 'https://www.tangedco.gov.in/',
     certificate: 'https://drive.google.com/file/d/1V8mbI67LRc6mE2qsPo_bCUT7nKqqdATC/view?usp=sharing',
