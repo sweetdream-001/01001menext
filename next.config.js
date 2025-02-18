@@ -19,7 +19,6 @@ const nextConfig = {
         hostname: "i.imgur.com",
       },
     ],
-    domains: ["rainydreams.vercel.app"],
   },
   webpack: (config, { isServer }) => {
     if (!isServer) {
