@@ -1,31 +1,47 @@
-import Link from 'next/link'
-import { FiGithub, FiLinkedin, FiInstagram, FiTwitter } from 'react-icons/fi'
-import { FooterContainer, FooterContent } from './styles'
-import { useTranslation } from 'react-i18next'
-import { useRouter } from 'next/router'
-import { useEffect, useState } from 'react'
+import Link from "next/link";
+import { FiGithub, FiLinkedin, FiInstagram, FiTwitter } from "react-icons/fi";
+import { FooterContainer, FooterContent } from "./styles";
+import { useTranslation } from "react-i18next";
+import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 
 export function Footer() {
-  const { t, i18n } = useTranslation('common');
+  const { t, i18n } = useTranslation("common");
   const router = useRouter();
-  const [currentLang, setCurrentLang] = useState<'en' | 'ta'>('en');
+  const [currentLang, setCurrentLang] = useState<"en" | "ta">("en");
 
   useEffect(() => {
     const { locale } = router;
-    setCurrentLang(locale as 'en' | 'ta');
+    setCurrentLang(locale as "en" | "ta");
   }, [router.locale]);
 
   return (
     <FooterContainer>
       <FooterContent>
-        <h4> &copy; {new Date().getFullYear()} Raniy Keys</h4>
+        <h4> &copy; {new Date().getFullYear()} Sweetdream</h4>
         <div className="footer_links">
-        <Link href={'/privacypolicy'} aria-label={currentLang === 'ta' ? 'தனியுரிமைக் கொள்கை' : 'Privacy Policy'} legacyBehavior>
-          {currentLang === 'ta' ? 'தனியுரிமைக் கொள்கை' : 'Privacy Policy'}
-        </Link>
-        <Link href={'/terms&condition'} aria-label={currentLang === 'ta' ? 'விதிமுறைகள் மற்றும் நிபந்தனைகள்' : 'Terms and Conditions'} legacyBehavior>
-          {currentLang === 'ta' ? 'விதிமுறைகள் மற்றும் நிபந்தனைகள்' : 'Terms and Conditions'}
-        </Link>
+          <Link
+            href={"/privacypolicy"}
+            aria-label={
+              currentLang === "ta" ? "தனியுரிமைக் கொள்கை" : "Privacy Policy"
+            }
+            legacyBehavior
+          >
+            {currentLang === "ta" ? "தனியுரிமைக் கொள்கை" : "Privacy Policy"}
+          </Link>
+          <Link
+            href={"/terms&condition"}
+            aria-label={
+              currentLang === "ta"
+                ? "விதிமுறைகள் மற்றும் நிபந்தனைகள்"
+                : "Terms and Conditions"
+            }
+            legacyBehavior
+          >
+            {currentLang === "ta"
+              ? "விதிமுறைகள் மற்றும் நிபந்தனைகள்"
+              : "Terms and Conditions"}
+          </Link>
         </div>
       </FooterContent>
       {/* <div className="links">
