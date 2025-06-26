@@ -9,6 +9,7 @@ import { RiWhatsappFill } from "react-icons/ri";
 import { BsLinkedin } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
 import {
+  TelegramLogo,
   ArrowLeft,
   ChatCenteredText,
   Image as IconImage,
@@ -44,7 +45,7 @@ export default function About() {
     <>
       <Head>
         <title>
-          {currentLang === "ta" ? "பற்றி | சரவணகுமார்" : "About | RaniyDream"}
+          {currentLang === "ta" ? "பற்றி | சரவணகுமார்" : "About | Sweetdream"}
         </title>
         <meta
           name="description"
@@ -75,7 +76,7 @@ export default function About() {
         <S.AboutContainer>
           <Title>
             <p>{currentLang === "ta" ? "../பற்றி" : "../about"} </p>
-            {currentLang === "ta" ? "என்னைப் பற்றி!!" : "About Myself!!"}
+            {currentLang === "ta" ? "என்னைப் பற்றி!!" : "About Me"}
             <span>
               <BiUserPin /> {currentLang === "ta" ? "பற்றி" : "About"}
             </span>
@@ -89,39 +90,46 @@ export default function About() {
                 alt="RaniyDream"
               />
 
-              {/* <div className="links">
+              <div className="links">
               <ul>
                 <Link
-                  href={'https://github.com/RaniyDream2003'}
+                  href={'https://github.com/sweetdream-001'}
                   target="_blank"
                   aria-label="Github">
 
-                  <AiFillGithub size={25} />@RaniyDream2003
+                  <AiFillGithub size={25} />@SweetDre@m
                 </Link>
-                <Link
+                {/* <Link
                   href={'https://www.linkedin.com/in/saravanaramaswamy2003/'}
                   target="_blank"
                   aria-label="Linkedin">
 
                   <BsLinkedin size={25} />@saravanaramaswamy2003
-                </Link>
+                </Link> */}
                 <Link
+                  href={'https://t.me/devcoop1991'}
+                  target="_blank"
+                  aria-label="Telegram">
+
+                  <TelegramLogo size={25} />Dev Coop
+                </Link>
+                {/* <Link
                   href={'https://api.whatsapp.com/send?phone=+13155476302'}
                   target="_blank"
                   aria-label="WhatsApp">
 
                   <RiWhatsappFill size={25} />+1 315 547 6302
-                </Link>
+                </Link> */}
                 <Link
-                  href={'mailto:kestonatwater1218@gmail.com'}
+                  href={'mailto:sweetdream0828@gmail.com'}
                   className="email"
                   target="_blank"
                   aria-label="email">
 
-                  <GrMail size={25} />kestonatwater1218@gmail.com
+                  <GrMail size={25} />sweetdream0828@gmail.com
                 </Link>
               </ul>
-            </div> */}
+            </div>
 
               <S.AboutContact>
                 <h3>
@@ -131,7 +139,7 @@ export default function About() {
                 </h3>
                 <Link href={"/projects"}>
                   <ButtonAlt>
-                    {currentLang === "ta" ? "தொடர்பு கொள்ளவும்" : "Portfolio"}
+                    {currentLang === "ta" ? "தொடர்பு கொள்ளவும்" : "Contact Me"}
                   </ButtonAlt>
                 </Link>
               </S.AboutContact>

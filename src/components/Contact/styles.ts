@@ -30,7 +30,7 @@ export const ContactContent = styled.div`
 
   @media (min-width: 768px) {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   
   .contact-content {

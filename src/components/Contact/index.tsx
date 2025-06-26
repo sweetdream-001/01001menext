@@ -26,7 +26,7 @@ export function Contact() {
     <Section>
       <Title>
         <p>../contact</p>
-        {currentLang === 'ta' ? 'தொடர்பு படிவம்' : 'Contact Form'}
+        {currentLang === 'ta' ? 'தொடர்பு படிவம்' : 'Contact'}
         <span>
           <Envelope /> {currentLang === 'ta' ? 'தொடர்பு' : 'Contact'}
         </span>
@@ -37,26 +37,16 @@ export function Contact() {
 
       <ContainerContact>
         <ContactContent>
-          <div className="contact-content">
+          <div className="contact-content text-center">
             <h4>
-              <LinkedinLogo size={22} color="#00fffb" /> Linkedin{' '}
-            </h4>
-            <Link href="https://www.linkedin.com/in/saravanaramaswamy2003/" target="_blank">
-              <span>saravanaramaswamy2003</span>
-            </Link>
-          </div>
-
-          <div className="contact-content">
-            <h4>
-              {' '}
               <TelegramLogo size={22} color="#00fffb" /> Email{' '}
             </h4>
-            <Link href="mailto:hello@RaniyDream.engineer" target="_blank">
-              <span>hello@RaniyDream.engineer</span>
+            <Link href="mailto:sweetdream0828@gmail.com" target="_blank">
+              <span>sweetdream0828@gmail.com</span>
             </Link>
           </div>
         </ContactContent>
-        <Form />
+
         <Title style={{ textAlign: "center" }}>
           {currentLang === 'ta' ? 'ஒரு சந்திப்பை திட்டமிடுங்கள்' : 'Schedule a Meeting'}
         </Title>

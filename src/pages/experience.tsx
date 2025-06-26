@@ -39,7 +39,7 @@ export default function Experience() {
   return (
     <div>
       <Head>
-        <title>{currentLang === 'ta' ? 'அனுபவம் | சரவணகுமார்' : 'Experience | RaniyDream'}</title>
+        <title>{currentLang === 'ta' ? 'அனுபவம் | சரவணகுமார்' : 'Experience | Eric Chen'}</title>
       </Head>
 
       <ScrollTop />

@@ -59,7 +59,7 @@ export function HomeHero() {
                 strings: [
                   currentLang === "ta"
                     ? "டெவலப்பர் | பேச்சாளர் | தன்னார்வலர்"
-                    : " Sr.Full Stack Developer | Web Designer ",
+                    : " AI/ML Automation Engineer ",
                 ],
                 autoStart: true,
                 loop: true,

@@ -68,7 +68,7 @@ export default function Resume() {
             allowFullScreen
             width="740"
             height="780"
-            title="RaniyDream Resume"
+            title="Eric Chen Resume"
           />
 
           <CV />

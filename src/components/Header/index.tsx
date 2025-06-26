@@ -91,7 +91,7 @@ export function Header() {
               <span>{currentLang === "ta" ? "திட்டங்கள்" : "Projects"}</span>
             </Link>
           </li>
-          {/* <li>
+          <li>
             <Link href={'/resume'}>
               <span>{currentLang === 'ta' ? 'சுயவிவரம்' : 'Resume'}</span>
             </Link>
@@ -100,7 +100,7 @@ export function Header() {
             <Link href={'/contact'}>
               <span>{currentLang === 'ta' ? 'தொடர்பு' : 'Contact'}</span>
             </Link>
-          </li> */}
+          </li>
         </ul>
         <Icons>
           <Link
