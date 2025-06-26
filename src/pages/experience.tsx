@@ -159,7 +159,7 @@ export default function Experience() {
         {/* <Certificates /> */}
       </Section>
       <script src="https://cdn.botpress.cloud/webchat/v3.0/inject.js"></script>
-      <script src="https://files.bpcontent.cloud/2025/06/26/07/20250626074132-AL3UR83F.js"></script>
+      <script src="https://webhook.botpress.cloud/92492cdf-cf44-4c92-b1fa-3c563231215e"></script>
       <Footer />
     </div>
   );
