@@ -51,13 +51,13 @@ export default function Home() {
         <Skills />
         <Experience />
         <Education />
-        <Work />
-        <Achievements />
-        <Publications />
-        <Certificates />
+        {/* <Work /> */}
+        {/* <Achievements /> */}
+        {/* <Publications /> */}
+        {/* <Certificates /> */}
         <Projects />
-        <Wakatime />
-        <Testimonials />
+        {/* <Wakatime /> */}
+        {/* <Testimonials /> */}
         <CardContact />
       </Section>
 

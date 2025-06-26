@@ -48,7 +48,7 @@ export function CardContact() {
           </div>
         </CardContactContent>
 
-        {/* <Link href={'/contact'} legacyBehavior>
+        <Link href={'/contact'} legacyBehavior>
           <ButtonAlt>
             {currentLang === 'ta' ? 'என்னை தொடர்பு கொள்ளுங்கள்' : 'Contact Me'}{' '}
             <TelegramLogo
@@ -61,7 +61,7 @@ export function CardContact() {
             />
           </ButtonAlt>
         </Link>
-        <Link href="https://forms.visme.co/formsPlayer/kkjne993-saravana-039-s-portfolio" legacyBehavior>
+        {/* <Link href="https://forms.visme.co/formsPlayer/kkjne993-saravana-039-s-portfolio" legacyBehavior>
           <ButtonAlt style={{
             marginTop: '1rem',
           }}>

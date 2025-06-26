@@ -137,7 +137,7 @@ export default function About() {
                     ? "நாம் பேசலாம், ஒருவேளை ஒரு அற்புதமான திட்டத்தை உருவாக்கலாம்?"
                     : "Lets talk, maybe create an amazing project together?"}
                 </h3>
-                <Link href={"/projects"}>
+                <Link href={"/contact"}>
                   <ButtonAlt>
                     {currentLang === "ta" ? "தொடர்பு கொள்ளவும்" : "Contact Me"}
                   </ButtonAlt>
