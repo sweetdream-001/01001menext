@@ -158,8 +158,8 @@ export default function Experience() {
         <Education />
         {/* <Certificates /> */}
       </Section>
-      <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
-      <script src={botkey} defer></script>
+      <script src="https://cdn.botpress.cloud/webchat/v3.0/inject.js"></script>
+      <script src="https://files.bpcontent.cloud/2025/06/26/07/20250626074132-AL3UR83F.js"></script>
       <Footer />
     </div>
   );
