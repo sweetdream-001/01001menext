@@ -27,17 +27,22 @@ export function About() {
         <div className="aboutContent">
           <div className="aboutDescription">
             <h2>
-              {currentLang === "ta" ? "என்னைப் பற்றி சிறிது!!" : "About Me!!"}
+              {currentLang === "ta" ? "என்னைப் பற்றி சிறிது!!" : "About Me"}
             </h2>
             <li>
               {currentLang === "ta"
                 ? "நான் வேலம்மல் பொறியியல் கல்லூரியின் மாணவர், எலக்ட்ரானிக்ஸ் மற்றும் கம்யூனிகேஷன் இன்ஜினியரிங் படித்து வருகிறேன் மற்றும் தொழில்நுட்பத்தில் ஒரு வலுவான அடித்தளத்தை உருவாக்குகிறேன்."
-                : "Hi! I am Eric Chen, a Senior Software Engineer with over a decade of experience steering software development at leading companies. I am now taking the leap into freelancing, eager to make the most of my expertise and deliver solutions that make a difference."}
+                : "Hi, I’m Eric Chen — a Senior AI/ML & Automation Engineer with 8+ years of experience transforming complex ideas into smart, scalable solutions."}
             </li>
             <li>
               {currentLang === "ta"
                 ? "நான் ஒரு ஆர்வமுள்ள டெவலப்பர், ஆர்வமுள்ள தன்னார்வலர் மற்றும் பொது பேச்சாளர், மேலும் புதிய வாய்ப்புகள் மற்றும் வழிகளை ஆராய்வதில் நான் ஆர்வமாக இருக்கிறேன்."
-                : "I am also an avid developer, enthusiastic volunteer, and public speaker, and I love exploring new opportunities and avenues."}
+                : "👋 Looking to bring automation, AI, and scalable systems into your business?"}
+            </li>
+            <li>
+              {currentLang === "ta"
+                ? "நான் ஒரு ஆர்வமுள்ள டெவலப்பர், ஆர்வமுள்ள தன்னார்வலர் மற்றும் பொது பேச்சாளர், மேலும் புதிய வாய்ப்புகள் மற்றும் வழிகளை ஆராய்வதில் நான் ஆர்வமாக இருக்கிறேன்."
+                : "Let’s connect — and make something exceptional."}
             </li>
           </div>
 

@@ -52,13 +52,13 @@ export default function About() {
           content={
             currentLang === "ta"
               ? "நான் சரவணகுமார், வேலம்மல் பொறியியல் கல்லூரியின் மாணவர், எலக்ட்ரானிக்ஸ் மற்றும் கம்யூனிகேஷன் இன்ஜினியரிங் படித்து வருகிறேன் மற்றும் தொழில்நுட்பத்தில் ஒரு வலுவான அடித்தளத்தை உருவாக்குகிறேன்."
-              : "I am RaniyDream, a proud student of Velammal Engineering College, where I am pursuing a Bachelors degree in Electronics and Communication Engineering and building a solid foundation in technology."
+              : "🚀 Your Vision, My Code — Let’s Build the Future"
           }
         />
         <meta
           property="og:title"
           content={
-            currentLang === "ta" ? "பற்றி | சரவணகுமார்" : "About | RaniyDream"
+            currentLang === "ta" ? "பற்றி | சரவணகுமார்" : "About | Sweetdream"
           }
         />
         <meta
@@ -66,7 +66,7 @@ export default function About() {
           content={
             currentLang === "ta"
               ? "நான் சரவணகுமார், வேலம்மல் பொறியியல் கல்லூரியின் மாணவர், எலக்ட்ரானிக்ஸ் மற்றும் கம்யூனிகேஷன் இன்ஜினியரிங் படித்து வருகிறேன் மற்றும் தொழில்நுட்பத்தில் ஒரு வலுவான அடித்தளத்தை உருவாக்குகிறேன்."
-              : "I am RaniyDream, a proud student of Velammal Engineering College, where I am pursuing a Bachelors degree in Electronics and Communication Engineering and building a solid foundation in technology."
+              : "🚀 Your Vision, My Code — Let’s Build the Future"
           }
         />
       </Head>
@@ -148,37 +148,42 @@ export default function About() {
               <p style={{ textAlign: "justify" }}>
                 {currentLang === "ta"
                   ? "👋 ."
-                  : "👋 Hi! I am Eric Chen, a Senior Software Engineer with over a decade of experience steering software development at leading companies."}
+                  : "🚀 Your Vision, My Code — Let’s Build the Future"}
               </p>
               <p style={{ textAlign: "justify" }}>
                 {currentLang === "ta"
                   ? "💻 ."
-                  : "💻I am now taking the leap into freelancing, eager to make the most of my expertise and deliver solutions that make a difference.."}
+                  : "💻Hi, I’m Eric Chen — a Senior AI/ML & Automation Engineer with 8+ years of experience transforming complex ideas into smart, scalable solutions."}
               </p>
               <p style={{ textAlign: "justify" }}>
                 {currentLang === "ta"
                   ? "🎉  💥."
-                  : "🎉 Throughout my career, I have rolled up my sleeves and worked hands-on with a variety of technologies, including Angular, React, Vue.js, Ruby on Rails, Node.js, and Go. My efforts have led to significant boosts in user engagement and enhanced operational efficiency.💥."}
+                  : "🎉 I specialize in integrating AI and backend automation to build powerful platforms that solve real-world problems. My toolbox includes Python, Node.js, FastAPI, and modern frameworks like React and Next.js — plus automation magic with tools like n8n, Zapier, HubSpot, GoHighLevel, and GPT-4."}
               </p>
               <p style={{ textAlign: "justify" }}>
                 {currentLang === "ta"
                   ? "🧩 என் நேரத்தில், புதிர்கள் மற்றும் மூளைக்கவசங்களை தீர்க்க நான் விரும்புகிறேன், இது எனக்கு கூர்மையாகவும் என் பிரச்சினை தீர்க்கும் திறன்களை சரியாக வைத்திருக்கவும் உதவுகிறது. உலகம் முழுவதும் புராணங்கள் மற்றும் புராணங்களை கற்றுக்கொள்வதில் நான் பெரிய ரசிகன், இது எனக்கு பல்வேறு கலாச்சாரங்கள் மற்றும் பாரம்பரியங்களைப் பற்றிய ஒரு பார்வையை அளிக்கிறது 🌍."
-                  : "🧩 In my free time, I love to solve puzzles and brain teasers, which helps me stay sharp and keep my problem-solving skills on point. I am also a big fan of learning myths and legends from around the world 🌍, which gives me a glimpse into different cultures and traditions."}
+                  : "🧩 From creating CRMs that talk to your customers intelligently, to developing eCommerce systems that sync in real time, I build full-stack solutions that are fast, clean, and future-ready."}
               </p>
               <p style={{ textAlign: "justify" }}>
                 {currentLang === "ta"
                   ? "🙌"
-                  : "🙌My journey has allowed me to craft robust RESTful APIs, implement smooth CI/CD processes, and elevate application performance—all while collaborating with talented teams."}
+                  : "🎓 Educated at NTU (2013–2017) with a degree in Computer Engineering, I’ve built my career on solid fundamentals and hands-on experience — and I'm always solving problems with a builder's mindset."}
               </p>
               <p style={{ textAlign: "justify" }}>
                 {currentLang === "ta"
                   ? "💪ம்🤝."
-                  : "💪 With a solid foundation in Computer Science and an unwavering passion for innovation, I am excited to bring my skills to your projects and help drive your success."}
+                  : "💡 Outside work, I thrive on puzzles, basketball, and late-night debugging sessions with lofi beats and coffee."}
               </p>
               <p style={{ textAlign: "justify" }}>
                 {currentLang === "ta"
                   ? "💪ம்🤝."
-                  : "🤝 Let’s create something amazing together!. "}
+                  : "✨ Now, I’m excited to take on my next big adventure as a co-founder — blending solid engineering with cutting-edge AI to build something truly impactful. If you’re looking for someone who can turn ideas into powerful, real-world tech, let’s team up and make it happen. "}
+              </p>
+              <p style={{ textAlign: "justify" }}>
+                {currentLang === "ta"
+                  ? "💪ம்🤝."
+                  : "🤝 Let’s connect — and make something exceptional. "}
               </p>
             </S.AboutDescription>
           </S.AboutContent>

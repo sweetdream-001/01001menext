@@ -47,10 +47,10 @@ const cardSkills = [
   {
     id: 6,
     title: {
-      en: 'Spring Boot',
+      en: 'n8n',
       ta: 'பைதான்',
     },
-    img: '/icons/springboot.png',
+    img: '/icons/n8n.jpg',
     color: '#3776AB'
   },
   {
@@ -65,10 +65,10 @@ const cardSkills = [
   {
     id: 8,
     title: {
-      en: 'Nuxt',
+      en: 'Zapier',
       ta: 'பிளாஸ்க்',
     },
-    img: '/icons/nuxt.png',
+    img: '/icons/zapier.png',
     color: '#000000'
   },
   {
@@ -92,6 +92,55 @@ const cardSkills = [
   {
     id: 11,
     title: {
+      en: 'Make.com',
+      ta: 'கான்வா',
+    },
+    img: '/icons/make.png',
+    color: '#dd04CC'
+  }
+  ,
+  {
+    id: 12,
+    title: {
+      en: 'HubSpot',
+      ta: 'கான்வா',
+    },
+    img: '/icons/hubspot.png',
+    color: '#0afeCC'
+  }
+  ,
+  {
+    id: 13,
+    title: {
+      en: 'GoHighLevel',
+      ta: 'கான்வா',
+    },
+    img: '/icons/ghl.png',
+    color: '#00adfC'
+  }
+  ,
+  {
+    id: 14,
+    title: {
+      en: 'HuggingFace',
+      ta: 'கான்வா',
+    },
+    img: '/icons/huggingface.png',
+    color: '#0dC4CC'
+  }
+  ,
+  {
+    id: 15,
+    title: {
+      en: 'OpenAI',
+      ta: 'கான்வா',
+    },
+    img: '/icons/openai.png',
+    color: '#0f34CC'
+  },
+  {
+    id: 16,
+    title: {
       en: 'Laravel',
       ta: 'வேர்ட்',
     },
@@ -99,7 +148,7 @@ const cardSkills = [
     color: '#2B579A'
   },
   {
-    id: 12,
+    id: 17,
     title: {
       en: 'WordPress',
       ta: 'பவர்பாயிண்ட்',
@@ -108,7 +157,7 @@ const cardSkills = [
     color: '#B7472A'
   },
   {
-    id: 13,
+    id: 18,
     title: {
       en: 'Shopify',
       ta: 'எக்செல்',
@@ -117,7 +166,7 @@ const cardSkills = [
     color: '#217346'
   },
   {
-    id: 14,
+    id: 19,
     title: {
       en: 'Java',
       ta: 'கான்வா',
@@ -127,7 +176,7 @@ const cardSkills = [
   }
   ,
   {
-    id: 15,
+    id: 20,
     title: {
       en: 'Python',
       ta: 'கான்வா',
@@ -137,7 +186,7 @@ const cardSkills = [
   }
   ,
   {
-    id: 16,
+    id: 21,
     title: {
       en: 'C#',
       ta: 'கான்வா',
@@ -147,7 +196,7 @@ const cardSkills = [
   }
   ,
   {
-    id: 17,
+    id: 22,
     title: {
       en: 'NodeJS',
       ta: 'கான்வா',
@@ -157,7 +206,7 @@ const cardSkills = [
   }
   ,
   {
-    id: 18,
+    id: 23,
     title: {
       en: 'MySQL',
       ta: 'கான்வா',
@@ -167,7 +216,7 @@ const cardSkills = [
   }
   ,
   {
-    id: 19,
+    id: 24,
     title: {
       en: 'MongoDB',
       ta: 'கான்வா',
@@ -177,17 +226,17 @@ const cardSkills = [
   }
   ,
   {
-    id: 20,
+    id: 25,
     title: {
       en: 'PostgreSQl',
       ta: 'கான்வா',
     },
     img: '/icons/postgresql.png',
     color: '#0de4CC'
-  },
+  }
   ,
   {
-    id: 21,
+    id: 26,
     title: {
       en: 'Redis',
       ta: 'கான்வா',
@@ -197,7 +246,7 @@ const cardSkills = [
   }
   ,
   {
-    id: 22,
+    id: 27,
     title: {
       en: 'AWS',
       ta: 'கான்வா',
@@ -207,7 +256,7 @@ const cardSkills = [
   }
   ,
   {
-    id: 23,
+    id: 28,
     title: {
       en: 'Docker',
       ta: 'கான்வா',
@@ -217,7 +266,7 @@ const cardSkills = [
   }
   ,
   {
-    id: 24,
+    id: 29,
     title: {
       en: 'Azure',
       ta: 'கான்வா',
@@ -227,7 +276,7 @@ const cardSkills = [
   }
   ,
   {
-    id: 25,
+    id: 30,
     title: {
       en: 'Kubernetes',
       ta: 'கான்வா',
@@ -235,6 +284,7 @@ const cardSkills = [
     img: '/icons/kubernets.png',
     color: '#0f34CC'
   }
+  
 ]
 
 export default cardSkills

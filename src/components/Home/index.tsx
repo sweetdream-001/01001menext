@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Typewriter from "typewriter-effect";
-import { Button, ButtonPrimary, Container } from "../../styles/styles";
+import { Button, ButtonPrimary, Container  } from "../../styles/styles";
 import { Content, ImgHome, HomeText } from "./styles";
 import { FiArrowRight } from "react-icons/fi";
 import { useState } from "react";
@@ -34,6 +34,7 @@ export function HomeHero() {
   }
 
   return (
+
     <Container>
       <Content>
         <HomeText>
@@ -99,5 +100,6 @@ export function HomeHero() {
         </ImgHome>
       </Content>
     </Container>
+
   );
 }

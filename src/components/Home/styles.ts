@@ -1,5 +1,14 @@
 import styled from 'styled-components'
 
+export const Background = styled.div`
+  background-image: url("https://blog.biostrand.ai/hubfs/IPA/Web_development/Imported_Blog_Media/AI%2C_ML%2C_DL%2C_and_NLP-_An_Overview__copy.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+`
+
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
