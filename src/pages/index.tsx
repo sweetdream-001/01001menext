@@ -48,14 +48,14 @@ export default function Home() {
       <Section>
         <HomeHero />
         <About />
+        <Projects />
         <Skills />
         <Experience />
         <Education />
         {/* <Work /> */}
         {/* <Achievements /> */}
         {/* <Publications /> */}
-        {/* <Certificates /> */}
-        <Projects />
+        {/* <Certificates />         */}
         {/* <Wakatime /> */}
         {/* <Testimonials /> */}
         <CardContact />
