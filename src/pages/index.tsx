@@ -56,7 +56,7 @@ export default function Home() {
         {/* <Achievements /> */}
         {/* <Publications /> */}
         {/* <Certificates />         */}
-        {/* <Wakatime /> */}
+         <Wakatime /> 
         {/* <Testimonials /> */}
         <CardContact />
       </Section>
