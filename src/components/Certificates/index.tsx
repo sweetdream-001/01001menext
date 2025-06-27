@@ -91,7 +91,7 @@ export function Certificates() {
                 return (
                   <Image
                     width={500}
-                    height={300}
+                    height={400}
                     className="carousel"
                     key={certificate_img.id}
                     src={certificate_img.image}

@@ -52,11 +52,11 @@ export default function Home() {
         <Skills />
         <Experience />
         <Education />
-        {/* <Work /> */}
+        <Work />
         {/* <Achievements /> */}
         {/* <Publications /> */}
-        {/* <Certificates />         */}
-         <Wakatime /> 
+        <Certificates />        
+        <Wakatime /> 
         {/* <Testimonials /> */}
         <CardContact />
       </Section>

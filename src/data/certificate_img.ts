@@ -1,44 +1,36 @@
 const certificates = [
-  // {
-  //   id: 1,
-  //   name: {
-  //     en: 'Google IT Support Professional Certificate',
-  //     ta: 'கூகுள் ஐடி ஆதரவு தொழில்முறை சான்றிதழ்',
-  //   },
-  //   image: '/certi/IT.png',
-  // },
+  {
+    id: 1,
+    name: {
+      en: 'Software Engineer Certificate',
+      ta: 'கூகுள் ஐடி ஆதரவு தொழில்முறை சான்றிதழ்',
+    },
+    image: '/certi/hack-softwareengineer.png',
+  },
   {
     id: 2,
     name: {
-      en: 'Microsoft Certified: Azure AI Fundamentals',
+      en: 'Problem Solving(Basic) Certificate',
       ta: 'மைக்ரோசாஃப்ட் சான்றளிக்கப்பட்டது: அசூர் ஏஐ அடிப்படைகள்',
     },
-    image: '/certi/AI.png',
+    image: '/certi/hack-problemsolving.png',
   },
   {
     id: 3,
     name: {
-      en: 'Microsoft Certified: Azure Fundamentals',
+      en: 'Python(Basic) Certificate',
       ta: 'மைக்ரோசாஃப்ட் சான்றளிக்கப்பட்டது: அசூர் அடிப்படைகள்',
     },
-    image: '/certi/Azure.jpg',
+    image: '/certi/hack-python.png',
   },
   {
-    id: 5,
+    id: 4,
     name: {
-      en: 'English for Career Development',
+      en: 'JavaScript(intermediate) Certificate',
       ta: 'தொழில் வளர்ச்சிக்கான ஆங்கிலம்',
     },
-    image: '/certi/English.png',
+    image: '/certi/hack-js-intermediate.png',
   },
-  // {
-  //   id: 6,
-  //   name: {
-  //     en: 'CS50x Introduction to Computer Science',
-  //     ta: 'CS50x கணினி அறிவியலுக்கான அறிமுகம்',
-  //   },
-  //   image: '/certi/CS50x.png',
-  // },
 ];
 
 export default certificates;

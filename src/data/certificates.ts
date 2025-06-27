@@ -24,35 +24,35 @@ const certificates = [
   //   },
   //   logo: '/certi/coursera_logo.jpeg',
   // },
-  // {
-  //   id: 4,
-  //   title: {
-  //     en: 'Google IT Support',
-  //     ta: 'கூகுள் ஐடி ஆதரவு',
-  //   },
-  //   subTitle: {
-  //     en: 'Click here to see certificate',
-  //     ta: 'சான்றிதழைப் பார்க்க இங்கே கிளிக் செய்யவும்',
-  //   },
-  //   status: {
-  //     en: 'Completed',
-  //     ta: 'நிறைவு',
-  //   },
-  //   level: {
-  //     en: 'October 2023',
-  //     ta: 'அக்டோபர் 2023',
-  //   },
-  //   link: 'https://www.coursera.org/account/accomplishments/professional-cert/7B6496VHSVNK?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof',
-  //   description: {
-  //     en: 'Credentials ID: 7B6496VHSVNK \n\nSkills Acquired: IT Service Management, Computer Networking, System Administration, IT Management, IT Security, IT Support \n\n',
-  //     ta: 'அங்கீகார ஐடி: 7B6496VHSVNK \n\nபெற்ற திறன்கள்: ஐடி சேவை மேலாண்மை, கணினி நெட்வொர்க்கிங், சிஸ்டம் நிர்வாகம், ஐடி மேலாண்மை, ஐடி பாதுகாப்பு, ஐடி ஆதரவு \n\n',
-  //   },
-  //   logo: '/certi/coursera_logo.jpeg',
-  // },
+  {
+    id: 4,
+    title: {
+      en: 'Software Engineer',
+      ta: 'கூகுள் ஐடி ஆதரவு',
+    },
+    subTitle: {
+      en: 'Click here to see certificate',
+      ta: 'சான்றிதழைப் பார்க்க இங்கே கிளிக் செய்யவும்',
+    },
+    status: {
+      en: 'Completed',
+      ta: 'நிறைவு',
+    },
+    level: {
+      en: '2025',
+      ta: 'அக்டோபர் 2023',
+    },
+    link: 'https://www.hackerrank.com/certificates/7ee95065d33a',
+    description: {
+      en: 'Credentials ID: 7EE95065D33A \n\nSkills Acquired: IT Service Management, Computer Networking, System Administration, IT Management, IT Security, IT Support \n\n',
+      ta: 'அங்கீகார ஐடி: 7B6496VHSVNK \n\nபெற்ற திறன்கள்: ஐடி சேவை மேலாண்மை, கணினி நெட்வொர்க்கிங், சிஸ்டம் நிர்வாகம், ஐடி மேலாண்மை, ஐடி பாதுகாப்பு, ஐடி ஆதரவு \n\n',
+    },
+    logo: '/certi/hackerrank.jpeg',
+  },
   {
     id: 3,
     title: {
-      en: 'Microsoft AI Fundamentals',
+      en: 'Problem Solving(Basic)',
       ta: 'மைக்ரோசாஃப்ட் ஏஐ அடிப்படைகள்',
     },
     subTitle: {
@@ -64,20 +64,20 @@ const certificates = [
       ta: 'நிறைவு',
     },
     level: {
-      en: 'March 2023',
+      en: '2025',
       ta: 'மார்ச் 2023',
     },
-    link: 'https://www.credly.com/badges/8e6fd35d-7614-462f-8f2a-af895223de59/linked_in_profile',
+    link: 'https://www.hackerrank.com/certificates/aae830fa2b4b',
     description: {
-      en: 'Credentials ID: 59P50A-5A62A6 \n\nSkills Acquired: Azure AI Fundamentals\n\n',
+      en: 'Credentials ID: AAE830FA2B4B \n\nSkills Acquired: problem solving\n\n',
       ta: 'அங்கீகார ஐடி: 59P50A-5A62A6 \n\nபெற்ற திறன்கள்: அசூர் ஏஐ அடிப்படைகள்\n\n',
     },
-    logo: '/certi/microsoft_logo.jpeg',
+    logo: '/certi/hackerrank.jpeg',
   },
   {
     id: 2,
     title: {
-      en: 'Microsoft Azure Fundamentals',
+      en: 'JavaScript(intermediate)',
       ta: 'மைக்ரோசாஃப்ட் அசூர் அடிப்படைகள்',
     },
     subTitle: {
@@ -89,20 +89,20 @@ const certificates = [
       ta: 'நிறைவு',
     },
     level: {
-      en: 'Feb 2023',
+      en: '2025',
       ta: 'பிப்ரவரி 2023',
     },
-    link: 'https://www.credly.com/badges/399438ce-4210-4e08-af50-e9409d1343cf/public_url',
+    link: 'https://www.hackerrank.com/certificates/cd86be768e4c',
     description: {
-      en: 'Credentials ID: B3ED2D-F3919B \n\nSkills Acquired: Azure Fundamentals\n\n',
+      en: 'Credentials ID: CDB6BE768E4C \n\nSkills Acquired: JavaScript \n\n',
       ta: 'அங்கீகார ஐடி: B3ED2D-F3919B \n\nபெற்ற திறன்கள்: அசூர் அடிப்படைகள்\n\n',
     },
-    logo: '/certi/microsoft_logo.jpeg',
+    logo: '/certi/hackerrank.jpeg',
   },
   {
     id: 1,
     title: {
-      en: 'SoftSkills NPTEL',
+      en: 'Python(Basic)',
       ta: 'மென்மையான திறன்கள் NPTEL',
     },
     subTitle: {
@@ -114,15 +114,15 @@ const certificates = [
       ta: 'நிறைவு',
     },
     level: {
-      en: 'October 2022',
+      en: '2025',
       ta: 'அக்டோபர் 2022',
     },
-    link: 'https://archive.nptel.ac.in/content/noc/NOC22/SEM2/Ecertificates/109/noc22-hs76/Course/NPTEL22HS76S5447196610098361.jpg',
+    link: 'https://www.hackerrank.com/certificates/7d0fb81ceed7',
     description: {
-      en: 'Credentials ID: Nil \n\nSkills Acquired: Communication \n\n',
+      en: 'Credentials ID: 7DOFB81CEED7 \n\nSkills Acquired: Python \n\n',
       ta: 'அங்கீகார ஐடி: இல்லை \n\nபெற்ற திறன்கள்: தொடர்பு \n\n',
     },
-    logo: '/certi/nptel.jpeg',
+    logo: '/certi/hackerrank.jpeg',
   },
 ];
 
