@@ -21,9 +21,9 @@ export function Work() {
   return (
     <Container id="work">
       <Title>
-        {currentLang === 'ta' ? 'பயணம்' : 'Journey'}
+        {currentLang === 'ta' ? 'பயணம்' : 'Automation'}
         <span>
-          <BiBarChartSquare />{currentLang === 'ta' ? 'தன்னார்வம்' : 'Volunteering'}
+          <BiBarChartSquare />{currentLang === 'ta' ? 'தன்னார்வம்' : 'Automation'}
         </span>
       </Title>
 

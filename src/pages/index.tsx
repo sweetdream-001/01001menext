@@ -48,12 +48,13 @@ export default function Home() {
       <Section>
         <HomeHero />
         <About />
+        <Work />
         <Projects />
         <Certificates />  
         <Skills />
         <Experience />
         <Education />
-        {/* <Work /> */}
+        
         {/* <Achievements /> */}
         {/* <Publications /> */}
       

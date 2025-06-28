@@ -17,7 +17,7 @@ interface WorkProps {
 export default function Projeto({ work }: WorkProps) {
   return <>
     <Head>
-      <title>{work.title} | RaniyDream </title>
+      <title>{work.title} | SweetDream </title>
       <meta name="description" content={work.description} />
       <meta property="og:title" content={work.title} />
       <meta property="og:description" content={work.description} />
@@ -77,7 +77,7 @@ export default function Projeto({ work }: WorkProps) {
                         textAlign: 'justify',
                       }
                     }>{print.description}</p>
-                    <span>Date : {print.date}</span>
+                    {/* <span>Date : {print.date}</span> */}
                     <a href={print.url} style={
                       {
                         textDecorationLine: 'underline',
@@ -86,8 +86,8 @@ export default function Projeto({ work }: WorkProps) {
                     }>{print.urltitle}</a>
                   </div>
                   <Image
-                    width={700}
-                    height={400}
+                    width={800}
+                    height={500}
                     src={print.image}
                     alt={print.name}
                   />

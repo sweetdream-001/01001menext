@@ -141,7 +141,7 @@ const cardSkills = [
     color: '#2B579A'
   },
   {
-    id: 18,
+    id: 17,
     title: {
       en: 'Shopify',
       ta: 'எக்செல்',
@@ -150,7 +150,7 @@ const cardSkills = [
     color: '#217346'
   },
   {
-    id: 19,
+    id: 18,
     title: {
       en: 'Java',
       ta: 'கான்வா',
@@ -159,7 +159,7 @@ const cardSkills = [
     color: '#0234CC'
   },
   {
-    id: 20,
+    id: 19,
     title: {
       en: 'Angular',
       ta: 'CSS',
@@ -168,7 +168,7 @@ const cardSkills = [
     color: '#0328fc'
   },
   {
-    id: 21,
+    id: 20,
     title: {
       en: 'C#',
       ta: 'கான்வா',
@@ -178,7 +178,7 @@ const cardSkills = [
   }
   ,
   {
-    id: 22,
+    id: 21,
     title: {
       en: 'NodeJS',
       ta: 'கான்வா',
@@ -188,7 +188,7 @@ const cardSkills = [
   }
   ,
   {
-    id: 23,
+    id: 22,
     title: {
       en: 'MySQL',
       ta: 'கான்வா',
@@ -198,7 +198,7 @@ const cardSkills = [
   }
   ,
   {
-    id: 24,
+    id: 23,
     title: {
       en: 'MongoDB',
       ta: 'கான்வா',
@@ -208,7 +208,7 @@ const cardSkills = [
   }
   ,
   {
-    id: 25,
+    id: 24,
     title: {
       en: 'PostgreSQl',
       ta: 'கான்வா',
@@ -218,7 +218,7 @@ const cardSkills = [
   }
   ,
   {
-    id: 27,
+    id: 25,
     title: {
       en: 'AWS',
       ta: 'கான்வா',
@@ -228,7 +228,7 @@ const cardSkills = [
   }
   ,
   {
-    id: 28,
+    id: 26,
     title: {
       en: 'Docker',
       ta: 'கான்வா',
