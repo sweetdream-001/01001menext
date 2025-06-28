@@ -41,7 +41,7 @@ export default function Home() {
         <title>
           {currentLang === "ta"
             ? "சரவணகுமாரின் போர்ட்ஃபோலியோ"
-            : " SweetDreams's Portfolio"}{" "}
+            : " Eric Chen's Portfolio"}{" "}
         </title>
       </Head>
       <ScrollTop />
@@ -49,13 +49,14 @@ export default function Home() {
         <HomeHero />
         <About />
         <Projects />
+        <Certificates />  
         <Skills />
         <Experience />
         <Education />
-        <Work />
+        {/* <Work /> */}
         {/* <Achievements /> */}
         {/* <Publications /> */}
-        <Certificates />        
+      
         {/* <Wakatime />  */}
         {/* <Testimonials /> */}
         <CardContact />
