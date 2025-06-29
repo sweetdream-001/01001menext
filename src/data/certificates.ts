@@ -1,29 +1,29 @@
 const certificates = [
-  // {
-  //   id: 5,
-  //   title: {
-  //     en: 'Google Data Analytics Specialization',
-  //     ta: 'கூகுள் தரவுகள் பகுப்பாய்வு சிறப்பு',
-  //   },
-  //   subTitle: {
-  //     en: 'Click here to see certificate',
-  //     ta: 'சான்றிதழைப் பார்க்க இங்கே கிளிக் செய்யவும்',
-  //   },
-  //   status: {
-  //     en: 'Completed',
-  //     ta: 'நிறைவு',
-  //   },
-  //   level: {
-  //     en: 'March 2024',
-  //     ta: 'மார்ச் 2024',
-  //   },
-  //   link: 'https://www.coursera.org/account/accomplishments/specialization/CGZH32563NGH',
-  //   description: {
-  //     en: 'Credentials ID: CGZH32563NGH \n\nSkills Acquired: Data Analysis, Microsoft Excel, Python\n\n',
-  //     ta: 'அங்கீகார ஐடி: CGZH32563NGH \n\nபெற்ற திறன்கள்: தரவுகள் பகுப்பாய்வு, மைக்ரோசாஃப்ட் எக்செல், Python\n\n',
-  //   },
-  //   logo: '/certi/coursera_logo.jpeg',
-  // },
+  {
+    id: 5,
+    title: {
+      en: 'Explainable AI Explaine',
+      ta: 'கூகுள் தரவுகள் பகுப்பாய்வு சிறப்பு',
+    },
+    subTitle: {
+      en: 'Click here to see certificate',
+      ta: 'சான்றிதழைப் பார்க்க இங்கே கிளிக் செய்யவும்',
+    },
+    status: {
+      en: 'Completed',
+      ta: 'நிறைவு',
+    },
+    level: {
+      en: 'March 2024',
+      ta: 'மார்ச் 2024',
+    },
+    link: 'https://drive.google.com/file/d/1xvef4poxh7sQXcSBymviUzbGxTnSfLuh/view?usp=sharing', 
+    description: {
+      en: 'Credentials ID: 6541-45508144 \n\nSkills Acquired: Python, Explainable AI\n\n',
+      ta: 'அங்கீகார ஐடி: CGZH32563NGH \n\nபெற்ற திறன்கள்: தரவுகள் பகுப்பாய்வு, மைக்ரோசாஃப்ட் எக்செல், Python\n\n',
+    },
+    logo: '/icons/alison.png',
+  },
   {
     id: 4,
     title: {

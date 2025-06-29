@@ -31,6 +31,14 @@ const certificates = [
     },
     image: '/certi/hack-js-intermediate.png',
   },
+  {
+    id: 5,
+    name: {
+      en: 'Explainable AI Explained',
+      ta: 'தொழில் வளர்ச்சிக்கான ஆங்கிலம்',
+    },
+    image: '/certi/explainai.png',
+  },
 ];
 
 export default certificates;
